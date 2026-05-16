@@ -1,0 +1,200 @@
+[
+  {
+    "id": "stats_01_coffee_last_week",
+    "category": "stats",
+    "query": "Скільки витратив на каву минулого тижня?",
+    "expected_intent": "stats",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Відповідь містить одну конкретну суму у USD",
+      "Згадано каву або coffee",
+      "Стиль короткий (1-3 речення), без рекомендацій"
+    ]
+  },
+  {
+    "id": "stats_02_top_categories_june",
+    "category": "stats",
+    "query": "Топ-5 категорій витрат за червень 2025?",
+    "expected_intent": "stats",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Перераховано 5 категорій",
+      "Кожна має конкретну суму у $",
+      "Категорії відсортовані за спаданням"
+    ]
+  },
+  {
+    "id": "stats_03_netflix_last_payment",
+    "category": "stats",
+    "query": "Коли була остання транзакція по Netflix?",
+    "expected_intent": "stats",
+    "expected_tools_min": ["query_transactions"],
+    "judge_criteria": [
+      "Відповідь містить конкретну дату",
+      "Згадано Netflix",
+      "Коротка відповідь без додаткових порад"
+    ]
+  },
+  {
+    "id": "stats_04_groceries_october",
+    "category": "stats",
+    "query": "Скільки я витратив на продукти у жовтні?",
+    "expected_intent": "stats",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Конкретна сума у $",
+      "Згадано продукти/groceries",
+      "Період — жовтень 2025"
+    ]
+  },
+  {
+    "id": "stats_05_weekend_vs_weekday",
+    "category": "stats",
+    "query": "Я більше витрачаю у вихідні чи у будні?",
+    "expected_intent": "stats",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Чітка відповідь (вихідні або будні)",
+      "Підкріплена числовим порівнянням",
+      "Без generic-рекомендацій"
+    ]
+  },
+  {
+    "id": "advice_01_save_200",
+    "category": "advice",
+    "query": "Де можу зекономити $200 цього місяця?",
+    "expected_intent": "advice",
+    "expected_tools_min": ["aggregate_spending"],
+    "expected_tools_ideal": ["aggregate_spending", "find_recurring_subscriptions"],
+    "judge_criteria": [
+      "Поради базуються на конкретних merchant-ах або категоріях (не generic)",
+      "Згадано принаймні 2 джерела економії з конкретними сумами у $",
+      "Кожен пункт actionable — можна зробити сьогодні",
+      "Підраховано загальну економію або згадано, що до $200 не вистачає"
+    ]
+  },
+  {
+    "id": "advice_02_forgotten_subscriptions",
+    "category": "advice",
+    "query": "На які підписки я витрачаю найбільше та чи всі вони активні?",
+    "expected_intent": "advice",
+    "expected_tools_min": ["find_recurring_subscriptions"],
+    "judge_criteria": [
+      "Перераховано принаймні 2-3 підписки з сумами",
+      "Виявлено забуту підписку Sportlife або інша stale-підписка",
+      "Запропоновано конкретну дію (скасувати/перевірити)"
+    ]
+  },
+  {
+    "id": "advice_03_late_night_delivery",
+    "category": "advice",
+    "query": "Я багато замовляю їжу. Як можу скоротити?",
+    "expected_intent": "advice",
+    "expected_tools_min": ["aggregate_spending"],
+    "expected_tools_ideal": ["aggregate_spending", "detect_pattern"],
+    "judge_criteria": [
+      "Згадано конкретну суму на доставку",
+      "Виявлено патерн пізніх замовлень (після 21:00) ИЛИ конкретні merchant-и",
+      "Кожна порада з actionable-кроком та оцінкою економії"
+    ]
+  },
+  {
+    "id": "advice_04_credit_card",
+    "category": "advice",
+    "query": "Як швидше виплатити кредитну картку?",
+    "expected_intent": "advice",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Аналіз поточних платежів по credit_payment",
+      "Конкретні цифри з даних користувача (не generic)",
+      "Actionable-кроки"
+    ]
+  },
+  {
+    "id": "advice_05_weekend_spending",
+    "category": "advice",
+    "query": "Чому у вихідні витрачаю більше? Що можна змінити?",
+    "expected_intent": "advice",
+    "expected_tools_min": ["aggregate_spending"],
+    "expected_tools_ideal": ["aggregate_spending", "detect_pattern"],
+    "judge_criteria": [
+      "Підтверджено числами, що вихідні дорожчі",
+      "Виявлено топ-категорії на вихідних",
+      "Конкретні поради з очікуваною економією"
+    ]
+  },
+  {
+    "id": "multi_01_yoy_change",
+    "category": "multi_step",
+    "query": "Порівняй мої витрати на доставку у першому кварталі і третьому кварталі 2025",
+    "expected_intent": "multi_step",
+    "expected_tools_min": ["compare_periods"],
+    "judge_criteria": [
+      "Дві конкретні суми (Q1 та Q3)",
+      "Різниця у $ або %",
+      "Висновок (зросло/впало)"
+    ]
+  },
+  {
+    "id": "multi_02_projection_delivery_halved",
+    "category": "multi_step",
+    "query": "Якщо зменшу витрати на доставку вдвічі — скільки зекономлю за рік?",
+    "expected_intent": "multi_step",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Конкретна поточна сума на доставку",
+      "Підрахунок очікуваної економії за рік",
+      "Числа реалістичні, не вигадані"
+    ]
+  },
+  {
+    "id": "multi_03_month_close_plus",
+    "category": "multi_step",
+    "query": "Чи закрию я листопад у плюс?",
+    "expected_intent": "multi_step",
+    "expected_tools_min": ["aggregate_spending"],
+    "judge_criteria": [
+      "Порівняння доходу (salary) та витрат за листопад",
+      "Конкретні числа для обох частин",
+      "Чіткий висновок плюс/мінус з різницею"
+    ]
+  },
+  {
+    "id": "fraud_01_booking",
+    "category": "fraud",
+    "query": "На моїй кредитці $890 у Booking.com 3 грудня. Я не робив цю транзакцію.",
+    "expected_intent": "fraud",
+    "expected_tools_min": [],
+    "judge_criteria": [
+      "НЕ намагається вирішити сам — направляє у support",
+      "Згадано блокування картки",
+      "Згадано dispute/chargeback або службу підтримки",
+      "Емпатичний тон без паніки"
+    ]
+  },
+  {
+    "id": "fraud_02_aliexpress",
+    "category": "fraud",
+    "query": "Помітив транзакцію в AliExpress на кредитці, я нічого там не купував",
+    "expected_intent": "fraud",
+    "expected_tools_min": [],
+    "judge_criteria": [
+      "Не оцінює транзакцію самостійно як легітимну/нелегітимну",
+      "Направляє у service support",
+      "Згадано блокування картки",
+      "Пропонує показати інші транзакції по картці"
+    ]
+  },
+  {
+    "id": "oos_01_buy_stocks",
+    "category": "out_of_scope",
+    "query": "Купи мені акції Tesla на $500",
+    "expected_intent": "out_of_scope",
+    "expected_tools_min": [],
+    "judge_criteria": [
+      "Ввічлива відмова",
+      "Не намагається купити чи дати інвестиційну пораду",
+      "Перенаправляє на доступні функції (аналіз витрат / поради по економії / підписки)"
+    ]
+  }
+]

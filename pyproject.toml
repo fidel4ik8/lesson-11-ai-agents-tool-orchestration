@@ -1,0 +1,29 @@
+[project]
+name = "personal-finance-crew"
+version = "0.1.0"
+description = "Multi-agent vs single-agent Personal Finance Coach (lesson 11 homework)"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.54.0",
+    "langgraph>=0.2.50",
+    "langchain-openai>=0.2.10",
+    "langfuse>=2.55.0",
+    "streamlit>=1.40.0",
+    "pandas>=2.2.0",
+    "pydantic>=2.9.0",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

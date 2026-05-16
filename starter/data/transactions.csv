@@ -1,0 +1,843 @@
+date,merchant,amount,currency,category,account,recurring
+2024-12-01T11:14,ATB,-63.0,USD,groceries,main_debit,False
+2024-12-01T17:01,Comfy,-124.0,USD,shopping,main_debit,False
+2024-12-01T19:24,Spotify,-5,USD,subscriptions,main_debit,True
+2024-12-01T19:37,Uber Eats,-37.5,USD,delivery,main_debit,False
+2024-12-02T08:28,Blue Bottle,-5.36,USD,coffee,main_debit,False
+2024-12-02T13:17,Bolt,-9.28,USD,transport,main_debit,False
+2024-12-03T08:38,Aroma Kava,-3.22,USD,coffee,main_debit,False
+2024-12-03T12:53,KyivPass,-8,USD,transport,main_debit,False
+2024-12-03T16:07,ATB,-62.5,USD,groceries,main_debit,False
+2024-12-04T07:49,Aroma Kava,-2.59,USD,coffee,main_debit,False
+2024-12-04T13:13,Uklon,-4.14,USD,transport,main_debit,False
+2024-12-04T21:06,ATB,-70.5,USD,groceries,main_debit,False
+2024-12-05T08:10,Blue Bottle,-4.43,USD,coffee,main_debit,False
+2024-12-06T07:51,Aroma Kava,-2.96,USD,coffee,main_debit,False
+2024-12-06T15:25,KyivPass,-8,USD,transport,main_debit,False
+2024-12-06T22:36,Novus,-30.0,USD,groceries,main_debit,False
+2024-12-07T14:57,Novus,-81.0,USD,groceries,main_debit,False
+2024-12-08T10:40,ATB,-71.0,USD,groceries,main_debit,False
+2024-12-08T14:38,Kyivska Perepichka,-3.19,USD,restaurants,main_debit,False
+2024-12-08T16:22,Vodokanal,-23.5,USD,utilities,main_debit,True
+2024-12-09T16:48,ATB,-59.5,USD,groceries,main_debit,False
+2024-12-09T21:53,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2024-12-09T22:02,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2024-12-10T09:55,Bolt,-7.57,USD,transport,main_debit,False
+2024-12-10T19:29,Internet KyivStar,-12,USD,utilities,main_debit,True
+2024-12-11T10:49,Lviv Croissants,-5.29,USD,coffee,main_debit,False
+2024-12-12T09:05,KyivPass,-8,USD,transport,main_debit,False
+2024-12-12T19:08,Apple One,-15,USD,subscriptions,main_debit,True
+2024-12-13T08:35,Aroma Kava,-2.76,USD,coffee,main_debit,False
+2024-12-13T19:31,KyivEnergo,-54.5,USD,utilities,main_debit,True
+2024-12-13T22:34,Auchan,-175.0,USD,groceries,main_debit,False
+2024-12-14T11:04,Auchan,-57.0,USD,groceries,main_debit,False
+2024-12-14T12:04,Glovo,-25.5,USD,delivery,main_debit,False
+2024-12-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2024-12-14T21:21,Rozetka,-228.0,USD,shopping,main_debit,False
+2024-12-15T10:46,Auchan,-70.0,USD,groceries,main_debit,False
+2024-12-15T19:12,Netflix,-12,USD,subscriptions,main_debit,True
+2024-12-16T09:27,Aroma Kava,-2.69,USD,coffee,main_debit,False
+2024-12-16T19:03,Auchan,-105.5,USD,groceries,main_debit,False
+2024-12-16T19:28,Sportlife,-15,USD,subscriptions,main_debit,True
+2024-12-17T10:27,Silpo,-73.5,USD,groceries,main_debit,False
+2024-12-17T23:54,Glovo,-22.0,USD,delivery,main_debit,False
+2024-12-18T20:50,Med Clinic,-82.5,USD,health,main_debit,False
+2024-12-18T21:25,Uklon,-6.37,USD,transport,main_debit,False
+2024-12-19T08:37,Uklon,-4.52,USD,transport,main_debit,False
+2024-12-19T10:50,Lviv Croissants,-5.09,USD,coffee,main_debit,False
+2024-12-19T17:30,Zara,-38.5,USD,shopping,main_debit,False
+2024-12-20T08:39,KyivPass,-8,USD,transport,main_debit,False
+2024-12-20T09:38,ATB,-70.5,USD,groceries,main_debit,False
+2024-12-20T22:36,Kanapa,-30.5,USD,restaurants,main_debit,False
+2024-12-21T11:32,ANC Pharmacy,-8.3,USD,health,main_debit,False
+2024-12-21T19:20,Novus,-40.5,USD,groceries,main_debit,False
+2024-12-21T22:20,Uber Eats,-31.0,USD,delivery,main_debit,False
+2024-12-22T19:42,Uber Eats,-32.5,USD,delivery,main_debit,False
+2024-12-22T22:15,Novus,-91.0,USD,groceries,main_debit,False
+2024-12-23T13:43,Glovo,-28.5,USD,delivery,main_debit,False
+2024-12-23T19:35,ATB,-73.0,USD,groceries,main_debit,False
+2024-12-24T08:02,Aroma Kava,-3.77,USD,coffee,main_debit,False
+2024-12-24T12:10,Silpo,-83.5,USD,groceries,main_debit,False
+2024-12-24T19:57,Rozetka,-237.5,USD,shopping,main_debit,False
+2024-12-25T08:27,Lviv Croissants,-4.75,USD,coffee,main_debit,False
+2024-12-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2024-12-25T11:42,Uklon,-4.47,USD,transport,main_debit,False
+2024-12-25T22:50,Novus,-52.5,USD,groceries,main_debit,False
+2024-12-26T08:11,Silpo,-108.0,USD,groceries,main_debit,False
+2024-12-26T08:55,Blue Bottle,-5.87,USD,coffee,main_debit,False
+2024-12-26T21:47,Uklon,-8.62,USD,transport,main_debit,False
+2024-12-27T07:12,Aroma Kava,-4.22,USD,coffee,main_debit,False
+2024-12-27T18:12,Bolt,-5.01,USD,transport,main_debit,False
+2024-12-28T12:02,Steam,-19.0,USD,entertainment,main_debit,False
+2024-12-28T21:01,Uber Eats,-39.5,USD,delivery,main_debit,False
+2024-12-29T22:36,Kyivska Perepichka,-3.35,USD,restaurants,main_debit,False
+2024-12-29T22:51,H&M,-25.0,USD,shopping,main_debit,False
+2024-12-30T08:23,Blue Bottle,-5.84,USD,coffee,main_debit,False
+2024-12-30T11:26,Uklon,-6.88,USD,transport,main_debit,False
+2024-12-30T14:20,Kyivska Perepichka,-3.93,USD,restaurants,main_debit,False
+2024-12-30T18:54,Novus,-71.5,USD,groceries,main_debit,False
+2024-12-31T08:19,Blue Bottle,-4.75,USD,coffee,main_debit,False
+2024-12-31T11:32,KyivPass,-8,USD,transport,main_debit,False
+2024-12-31T17:41,Auchan,-150.0,USD,groceries,main_debit,False
+2025-01-01T09:40,Aroma Kava,-3.07,USD,coffee,main_debit,False
+2025-01-01T11:51,Puzata Hata,-14.5,USD,restaurants,main_debit,False
+2025-01-01T15:39,Bolt,-3.42,USD,transport,main_debit,False
+2025-01-01T17:12,H&M,-109.0,USD,shopping,main_debit,False
+2025-01-02T10:44,Lviv Croissants,-3.73,USD,coffee,main_debit,False
+2025-01-02T11:11,ATB,-65.5,USD,groceries,main_debit,False
+2025-01-03T09:33,Aroma Kava,-4.1,USD,coffee,main_debit,False
+2025-01-04T19:55,Auchan,-165.5,USD,groceries,main_debit,False
+2025-01-05T16:24,KyivEnergo,-79.0,USD,utilities,main_debit,True
+2025-01-06T10:05,Lviv Croissants,-4.01,USD,coffee,main_debit,False
+2025-01-06T10:45,Silpo,-58.5,USD,groceries,main_debit,False
+2025-01-06T14:03,Uklon,-6.8,USD,transport,main_debit,False
+2025-01-07T09:30,Blue Bottle,-4.05,USD,coffee,main_debit,False
+2025-01-07T14:54,Novus,-47.5,USD,groceries,main_debit,False
+2025-01-07T17:54,Vodokanal,-28.0,USD,utilities,main_debit,True
+2025-01-08T13:46,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-01-08T18:51,Uklon,-5.35,USD,transport,main_debit,False
+2025-01-09T09:37,Blue Bottle,-5.34,USD,coffee,main_debit,False
+2025-01-09T10:03,Puzata Hata,-16.5,USD,restaurants,main_debit,False
+2025-01-09T13:21,Uklon,-4.48,USD,transport,main_debit,False
+2025-01-10T09:01,Lviv Croissants,-5.5,USD,coffee,main_debit,False
+2025-01-10T11:53,Bolt,-11.55,USD,transport,main_debit,False
+2025-01-10T15:42,Cinema City,-9.5,USD,entertainment,main_debit,False
+2025-01-10T20:39,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-01-10T20:41,Puzata Hata,-14.5,USD,restaurants,main_debit,False
+2025-01-10T21:16,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-01-11T10:38,Novus,-82.5,USD,groceries,main_debit,False
+2025-01-12T21:25,Bolt Food,-21.5,USD,delivery,main_debit,False
+2025-01-13T08:54,Aroma Kava,-2.7,USD,coffee,main_debit,False
+2025-01-13T09:32,H&M,-88.0,USD,shopping,main_debit,False
+2025-01-14T08:27,Lviv Croissants,-5.47,USD,coffee,main_debit,False
+2025-01-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-01-15T09:17,Bolt,-10.48,USD,transport,main_debit,False
+2025-01-15T14:23,Booking.com,-703.0,USD,travel,credit_card,False
+2025-01-15T21:46,Auchan,-105.0,USD,groceries,main_debit,False
+2025-01-16T09:54,Lviv Croissants,-4.01,USD,coffee,main_debit,False
+2025-01-16T19:26,ANC Pharmacy,-8.85,USD,health,main_debit,False
+2025-01-16T20:16,Auchan,-69.5,USD,groceries,main_debit,False
+2025-01-17T09:45,Aroma Kava,-3.88,USD,coffee,main_debit,False
+2025-01-17T10:28,Apple One,-15,USD,subscriptions,main_debit,True
+2025-01-17T11:19,Bolt,-6.64,USD,transport,main_debit,False
+2025-01-18T10:04,Spotify,-5,USD,subscriptions,main_debit,True
+2025-01-18T13:29,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-01-18T15:17,Novus,-51.5,USD,groceries,main_debit,False
+2025-01-18T19:47,Uber Eats,-20.0,USD,delivery,main_debit,False
+2025-01-19T17:48,Auchan,-78.5,USD,groceries,main_debit,False
+2025-01-20T08:36,Uklon,-3.72,USD,transport,main_debit,False
+2025-01-20T09:34,Aroma Kava,-3.1,USD,coffee,main_debit,False
+2025-01-20T16:18,ATB,-78.5,USD,groceries,main_debit,False
+2025-01-20T22:55,Netflix,-12,USD,subscriptions,main_debit,True
+2025-01-21T09:25,Auchan,-56.0,USD,groceries,main_debit,False
+2025-01-22T20:26,Silpo,-32.0,USD,groceries,main_debit,False
+2025-01-23T09:36,Blue Bottle,-6.48,USD,coffee,main_debit,False
+2025-01-24T09:04,Aroma Kava,-2.98,USD,coffee,main_debit,False
+2025-01-24T12:44,KyivPass,-8,USD,transport,main_debit,False
+2025-01-24T17:30,Auchan,-103.0,USD,groceries,main_debit,False
+2025-01-24T20:50,Comfy,-372.5,USD,shopping,main_debit,False
+2025-01-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-01-26T17:47,Cinema City,-13.5,USD,entertainment,main_debit,False
+2025-01-27T10:25,Lviv Croissants,-5.07,USD,coffee,main_debit,False
+2025-01-27T21:55,ANC Pharmacy,-48.29,USD,health,main_debit,False
+2025-01-27T22:27,Bolt,-8.38,USD,transport,main_debit,False
+2025-01-28T09:52,Aroma Kava,-4.5,USD,coffee,main_debit,False
+2025-01-28T10:30,ATB,-64.5,USD,groceries,main_debit,False
+2025-01-28T17:27,Uklon,-4.27,USD,transport,main_debit,False
+2025-01-29T08:54,Lviv Croissants,-3.96,USD,coffee,main_debit,False
+2025-01-29T12:42,Auchan,-137.0,USD,groceries,main_debit,False
+2025-01-30T08:42,Lviv Croissants,-5.59,USD,coffee,main_debit,False
+2025-01-30T13:39,KyivPass,-8,USD,transport,main_debit,False
+2025-01-31T09:28,Blue Bottle,-4.33,USD,coffee,main_debit,False
+2025-01-31T17:51,KyivPass,-8,USD,transport,main_debit,False
+2025-02-01T15:59,Kyivska Perepichka,-5.5,USD,restaurants,main_debit,False
+2025-02-01T21:58,ATB,-29.5,USD,groceries,main_debit,False
+2025-02-03T18:34,Netflix,-12,USD,subscriptions,main_debit,True
+2025-02-04T17:42,Uklon,-8.86,USD,transport,main_debit,False
+2025-02-05T09:29,Blue Bottle,-5.91,USD,coffee,main_debit,False
+2025-02-05T11:06,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-02-06T10:58,Lviv Croissants,-5.23,USD,coffee,main_debit,False
+2025-02-07T09:55,Blue Bottle,-6.41,USD,coffee,main_debit,False
+2025-02-07T10:55,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-02-07T19:30,Uber Eats,-39.0,USD,delivery,main_debit,False
+2025-02-07T22:29,Auchan,-54.0,USD,groceries,main_debit,False
+2025-02-08T21:34,Novus,-89.0,USD,groceries,main_debit,False
+2025-02-08T22:55,Uber Eats,-37.0,USD,delivery,main_debit,False
+2025-02-09T12:48,Glovo,-22.0,USD,delivery,main_debit,False
+2025-02-10T07:18,Aroma Kava,-2.59,USD,coffee,main_debit,False
+2025-02-10T11:31,H&M,-84.0,USD,shopping,main_debit,False
+2025-02-10T16:26,Auchan,-60.5,USD,groceries,main_debit,False
+2025-02-11T09:06,KyivEnergo,-72.0,USD,utilities,main_debit,True
+2025-02-11T09:16,Lviv Croissants,-4.91,USD,coffee,main_debit,False
+2025-02-11T10:04,Uklon,-7.74,USD,transport,main_debit,False
+2025-02-12T09:15,Auchan,-159.5,USD,groceries,main_debit,False
+2025-02-12T09:54,Lviv Croissants,-5.07,USD,coffee,main_debit,False
+2025-02-12T12:01,Uklon,-9.95,USD,transport,main_debit,False
+2025-02-13T08:53,Vodokanal,-25.0,USD,utilities,main_debit,True
+2025-02-13T08:58,Blue Bottle,-5.95,USD,coffee,main_debit,False
+2025-02-14T09:43,Blue Bottle,-4.48,USD,coffee,main_debit,False
+2025-02-14T14:00,Credit Card Payment,-458.56,USD,credit_payment,main_debit,False
+2025-02-14T15:02,Rozetka,-91.0,USD,shopping,main_debit,False
+2025-02-15T20:08,Uber Eats,-25.5,USD,delivery,main_debit,False
+2025-02-16T12:58,Novus,-87.5,USD,groceries,main_debit,False
+2025-02-17T07:09,Aroma Kava,-3.44,USD,coffee,main_debit,False
+2025-02-17T18:31,Apple One,-15,USD,subscriptions,main_debit,True
+2025-02-18T07:16,Aroma Kava,-4.08,USD,coffee,main_debit,False
+2025-02-19T11:41,KyivPass,-8,USD,transport,main_debit,False
+2025-02-19T17:56,Silpo,-67.0,USD,groceries,main_debit,False
+2025-02-20T08:02,Lviv Croissants,-3.35,USD,coffee,main_debit,False
+2025-02-20T11:56,Auchan,-56.5,USD,groceries,main_debit,False
+2025-02-20T12:20,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-02-20T19:44,Uklon,-7.69,USD,transport,main_debit,False
+2025-02-21T09:39,Lviv Croissants,-4.96,USD,coffee,main_debit,False
+2025-02-21T13:13,Novus,-27.5,USD,groceries,main_debit,False
+2025-02-21T18:22,Zara,-111.5,USD,shopping,main_debit,False
+2025-02-22T19:03,Uber Eats,-30.0,USD,delivery,main_debit,False
+2025-02-22T21:29,ATB,-76.5,USD,groceries,main_debit,False
+2025-02-23T16:13,ATB,-69.0,USD,groceries,main_debit,False
+2025-02-24T08:08,Blue Bottle,-4.01,USD,coffee,main_debit,False
+2025-02-24T13:50,Bolt,-4.19,USD,transport,main_debit,False
+2025-02-24T19:26,Med Clinic,-48.5,USD,health,main_debit,False
+2025-02-25T09:49,Blue Bottle,-4.16,USD,coffee,main_debit,False
+2025-02-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-02-25T11:39,ATB,-44.5,USD,groceries,main_debit,False
+2025-02-25T15:41,Kyivska Perepichka,-4.56,USD,restaurants,main_debit,False
+2025-02-25T16:09,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-02-26T09:04,Lviv Croissants,-5.14,USD,coffee,main_debit,False
+2025-02-26T18:37,Bolt,-5.48,USD,transport,main_debit,False
+2025-02-27T09:06,Lviv Croissants,-4.52,USD,coffee,main_debit,False
+2025-02-27T11:27,Kyivska Perepichka,-5.16,USD,restaurants,main_debit,False
+2025-02-27T14:12,Spotify,-5,USD,subscriptions,main_debit,True
+2025-02-27T21:29,Bolt,-6.72,USD,transport,main_debit,False
+2025-02-28T08:43,Lviv Croissants,-4.12,USD,coffee,main_debit,False
+2025-02-28T17:35,Bolt,-8.01,USD,transport,main_debit,False
+2025-02-28T19:47,Puzata Hata,-12.5,USD,restaurants,main_debit,False
+2025-03-02T13:54,Puzata Hata,-16.5,USD,restaurants,main_debit,False
+2025-03-02T17:32,Novus,-51.5,USD,groceries,main_debit,False
+2025-03-02T17:41,Spotify,-5,USD,subscriptions,main_debit,True
+2025-03-03T10:39,Lviv Croissants,-5.54,USD,coffee,main_debit,False
+2025-03-03T12:58,Med Clinic,-152.5,USD,health,main_debit,False
+2025-03-04T07:36,Aroma Kava,-2.86,USD,coffee,main_debit,False
+2025-03-04T13:19,Uklon,-5.39,USD,transport,main_debit,False
+2025-03-04T16:13,Puzata Hata,-9.0,USD,restaurants,main_debit,False
+2025-03-05T09:03,Aroma Kava,-2.81,USD,coffee,main_debit,False
+2025-03-05T17:45,KyivEnergo,-58.5,USD,utilities,main_debit,True
+2025-03-06T07:18,Aroma Kava,-3.19,USD,coffee,main_debit,False
+2025-03-06T14:38,Uklon,-3.32,USD,transport,main_debit,False
+2025-03-06T15:51,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-03-06T22:13,Vodokanal,-15.0,USD,utilities,main_debit,True
+2025-03-07T08:00,Lviv Croissants,-3.87,USD,coffee,main_debit,False
+2025-03-07T19:14,KyivPass,-8,USD,transport,main_debit,False
+2025-03-08T15:58,ATB,-43.5,USD,groceries,main_debit,False
+2025-03-08T17:29,Med Clinic,-67.5,USD,health,main_debit,False
+2025-03-08T23:40,Bolt Food,-21.5,USD,delivery,main_debit,False
+2025-03-09T17:25,Cinema City,-9.5,USD,entertainment,main_debit,False
+2025-03-10T08:04,Lviv Croissants,-3.66,USD,coffee,main_debit,False
+2025-03-10T11:11,Bolt,-4.32,USD,transport,main_debit,False
+2025-03-10T23:52,Bolt Food,-17.0,USD,delivery,main_debit,False
+2025-03-11T09:43,Blue Bottle,-5.24,USD,coffee,main_debit,False
+2025-03-12T09:19,Aroma Kava,-3.44,USD,coffee,main_debit,False
+2025-03-12T15:02,Bolt,-5.79,USD,transport,main_debit,False
+2025-03-13T20:47,Uklon,-7.06,USD,transport,main_debit,False
+2025-03-14T10:09,Lviv Croissants,-4.82,USD,coffee,main_debit,False
+2025-03-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-03-15T15:28,ATB,-31.0,USD,groceries,main_debit,False
+2025-03-15T15:59,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-03-16T08:50,Novus,-76.0,USD,groceries,main_debit,False
+2025-03-16T11:06,Netflix,-12,USD,subscriptions,main_debit,True
+2025-03-16T16:39,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-03-17T10:58,Lviv Croissants,-5.17,USD,coffee,main_debit,False
+2025-03-17T21:19,Uber Eats,-18.5,USD,delivery,main_debit,False
+2025-03-18T13:52,Auchan,-130.0,USD,groceries,main_debit,False
+2025-03-18T14:32,KyivPass,-8,USD,transport,main_debit,False
+2025-03-18T22:33,Kyivska Perepichka,-5.99,USD,restaurants,main_debit,False
+2025-03-19T08:09,Lviv Croissants,-3.58,USD,coffee,main_debit,False
+2025-03-19T13:56,KyivPass,-8,USD,transport,main_debit,False
+2025-03-19T16:53,ATB,-48.0,USD,groceries,main_debit,False
+2025-03-20T08:46,Blue Bottle,-5.93,USD,coffee,main_debit,False
+2025-03-20T19:15,Auchan,-91.0,USD,groceries,main_debit,False
+2025-03-21T08:23,Lviv Croissants,-5.71,USD,coffee,main_debit,False
+2025-03-21T16:33,Uklon,-8.45,USD,transport,main_debit,False
+2025-03-22T15:55,Novus,-29.0,USD,groceries,main_debit,False
+2025-03-22T21:07,Kyivska Perepichka,-5.54,USD,restaurants,main_debit,False
+2025-03-23T13:15,Cinema City,-11.0,USD,entertainment,main_debit,False
+2025-03-23T17:16,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-03-23T19:59,Glovo,-31.0,USD,delivery,main_debit,False
+2025-03-24T10:41,Lviv Croissants,-5.79,USD,coffee,main_debit,False
+2025-03-24T12:58,Silpo,-34.0,USD,groceries,main_debit,False
+2025-03-25T07:53,Aroma Kava,-2.54,USD,coffee,main_debit,False
+2025-03-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-03-25T12:15,Auchan,-55.5,USD,groceries,main_debit,False
+2025-03-25T17:29,Uklon,-7.47,USD,transport,main_debit,False
+2025-03-26T08:45,Blue Bottle,-5.29,USD,coffee,main_debit,False
+2025-03-26T09:33,KyivPass,-8,USD,transport,main_debit,False
+2025-03-26T13:15,Auchan,-40.0,USD,groceries,main_debit,False
+2025-03-26T15:02,Rozetka,-110.0,USD,shopping,main_debit,False
+2025-03-27T09:22,ATB,-38.0,USD,groceries,main_debit,False
+2025-03-27T14:42,Apple One,-15,USD,subscriptions,main_debit,True
+2025-03-28T10:11,Lviv Croissants,-4.64,USD,coffee,main_debit,False
+2025-03-29T11:56,Cinema City,-8.5,USD,entertainment,main_debit,False
+2025-03-29T21:34,Zara,-107.5,USD,shopping,main_debit,False
+2025-03-30T13:27,Kanapa,-30.5,USD,restaurants,main_debit,False
+2025-03-30T21:49,Silpo,-48.5,USD,groceries,main_debit,False
+2025-03-31T08:23,Aroma Kava,-3.49,USD,coffee,main_debit,False
+2025-03-31T13:06,Comfy,-236.5,USD,shopping,main_debit,False
+2025-04-01T08:46,Auchan,-89.0,USD,groceries,main_debit,False
+2025-04-01T10:27,Lviv Croissants,-4.34,USD,coffee,main_debit,False
+2025-04-01T20:03,Uklon,-4.92,USD,transport,main_debit,False
+2025-04-02T08:09,Blue Bottle,-4.4,USD,coffee,main_debit,False
+2025-04-02T20:41,Bolt,-3.61,USD,transport,main_debit,False
+2025-04-03T09:23,Blue Bottle,-5.12,USD,coffee,main_debit,False
+2025-04-03T16:23,ATB,-52.5,USD,groceries,main_debit,False
+2025-04-04T08:16,Lviv Croissants,-5.74,USD,coffee,main_debit,False
+2025-04-04T12:44,KyivPass,-8,USD,transport,main_debit,False
+2025-04-06T09:46,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-04-07T10:45,Lviv Croissants,-5.55,USD,coffee,main_debit,False
+2025-04-08T09:04,Silpo,-81.0,USD,groceries,main_debit,False
+2025-04-08T10:36,Lviv Croissants,-3.08,USD,coffee,main_debit,False
+2025-04-08T16:24,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-04-09T08:41,Aroma Kava,-2.75,USD,coffee,main_debit,False
+2025-04-09T11:33,Vodokanal,-16.0,USD,utilities,main_debit,True
+2025-04-09T13:08,Auchan,-135.0,USD,groceries,main_debit,False
+2025-04-10T09:09,Aroma Kava,-4.16,USD,coffee,main_debit,False
+2025-04-10T19:14,Silpo,-52.5,USD,groceries,main_debit,False
+2025-04-11T09:39,Blue Bottle,-4.69,USD,coffee,main_debit,False
+2025-04-11T10:10,KyivPass,-8,USD,transport,main_debit,False
+2025-04-12T20:36,Rozetka,-238.0,USD,shopping,main_debit,False
+2025-04-13T08:31,Auchan,-126.5,USD,groceries,main_debit,False
+2025-04-13T09:53,KyivEnergo,-42.0,USD,utilities,main_debit,True
+2025-04-14T09:04,Blue Bottle,-5.02,USD,coffee,main_debit,False
+2025-04-14T13:46,KyivPass,-8,USD,transport,main_debit,False
+2025-04-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-04-14T21:23,Apple One,-15,USD,subscriptions,main_debit,True
+2025-04-14T22:09,Bolt Food,-14.0,USD,delivery,main_debit,False
+2025-04-15T09:15,Blue Bottle,-5.4,USD,coffee,main_debit,False
+2025-04-15T14:55,Bolt,-3.46,USD,transport,main_debit,False
+2025-04-16T10:20,Lviv Croissants,-5.8,USD,coffee,main_debit,False
+2025-04-16T14:32,Bolt,-3.81,USD,transport,main_debit,False
+2025-04-16T16:29,Silpo,-70.0,USD,groceries,main_debit,False
+2025-04-16T22:36,AliExpress,-231.0,USD,shopping,credit_card,False
+2025-04-17T10:43,Lviv Croissants,-4.48,USD,coffee,main_debit,False
+2025-04-18T08:36,Lviv Croissants,-3.14,USD,coffee,main_debit,False
+2025-04-18T19:56,Spotify,-5,USD,subscriptions,main_debit,True
+2025-04-18T20:35,Uklon,-6.53,USD,transport,main_debit,False
+2025-04-19T20:21,ATB,-40.5,USD,groceries,main_debit,False
+2025-04-20T10:45,ATB,-18.0,USD,groceries,main_debit,False
+2025-04-20T22:08,Bolt Food,-13.0,USD,delivery,main_debit,False
+2025-04-21T08:23,Netflix,-12,USD,subscriptions,main_debit,True
+2025-04-21T16:31,KyivPass,-8,USD,transport,main_debit,False
+2025-04-22T09:37,Blue Bottle,-4.27,USD,coffee,main_debit,False
+2025-04-22T12:41,ATB,-54.0,USD,groceries,main_debit,False
+2025-04-23T09:09,Blue Bottle,-5.8,USD,coffee,main_debit,False
+2025-04-24T09:32,Lviv Croissants,-5.07,USD,coffee,main_debit,False
+2025-04-24T16:20,Comfy,-226.5,USD,shopping,main_debit,False
+2025-04-25T08:29,Lviv Croissants,-3.94,USD,coffee,main_debit,False
+2025-04-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-04-25T18:41,KyivPass,-8,USD,transport,main_debit,False
+2025-04-26T19:03,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-04-26T23:13,Bolt Food,-25.5,USD,delivery,main_debit,False
+2025-04-27T17:17,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-04-27T17:43,Novus,-46.5,USD,groceries,main_debit,False
+2025-04-28T08:45,Aroma Kava,-3.08,USD,coffee,main_debit,False
+2025-04-28T19:30,Auchan,-132.0,USD,groceries,main_debit,False
+2025-04-29T08:03,Blue Bottle,-5.47,USD,coffee,main_debit,False
+2025-04-30T08:58,KyivPass,-8,USD,transport,main_debit,False
+2025-04-30T09:59,Aroma Kava,-2.51,USD,coffee,main_debit,False
+2025-04-30T11:48,Auchan,-107.0,USD,groceries,main_debit,False
+2025-05-01T07:26,Aroma Kava,-4.33,USD,coffee,main_debit,False
+2025-05-01T09:59,Med Clinic,-131.0,USD,health,main_debit,False
+2025-05-01T10:59,Kanapa,-60.5,USD,restaurants,main_debit,False
+2025-05-02T10:54,Auchan,-164.5,USD,groceries,main_debit,False
+2025-05-02T17:43,Med Clinic,-166.5,USD,health,main_debit,False
+2025-05-02T19:29,Bolt,-5.98,USD,transport,main_debit,False
+2025-05-03T10:30,Bookstore,-6.91,USD,entertainment,main_debit,False
+2025-05-03T16:20,Kanapa,-62.0,USD,restaurants,main_debit,False
+2025-05-04T12:21,Silpo,-64.5,USD,groceries,main_debit,False
+2025-05-04T13:44,Puzata Hata,-10.5,USD,restaurants,main_debit,False
+2025-05-05T09:44,Blue Bottle,-5.26,USD,coffee,main_debit,False
+2025-05-05T11:14,Novus,-52.5,USD,groceries,main_debit,False
+2025-05-05T17:23,Uklon,-8.23,USD,transport,main_debit,False
+2025-05-06T08:43,Blue Bottle,-6.06,USD,coffee,main_debit,False
+2025-05-06T13:04,Uklon,-6.7,USD,transport,main_debit,False
+2025-05-07T11:33,Netflix,-12,USD,subscriptions,main_debit,True
+2025-05-07T16:25,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-05-07T21:33,Silpo,-36.5,USD,groceries,main_debit,False
+2025-05-08T09:26,Aroma Kava,-3.41,USD,coffee,main_debit,False
+2025-05-08T21:16,Bolt Food,-24.5,USD,delivery,main_debit,False
+2025-05-09T07:59,Aroma Kava,-3.58,USD,coffee,main_debit,False
+2025-05-09T20:08,Uklon,-5.86,USD,transport,main_debit,False
+2025-05-10T20:41,Uber Eats,-37.0,USD,delivery,main_debit,False
+2025-05-10T22:58,Auchan,-103.0,USD,groceries,main_debit,False
+2025-05-11T11:53,Silpo,-93.0,USD,groceries,main_debit,False
+2025-05-11T23:34,Bolt Food,-19.5,USD,delivery,main_debit,False
+2025-05-12T08:28,Bolt,-3.91,USD,transport,main_debit,False
+2025-05-12T09:48,Aroma Kava,-3.05,USD,coffee,main_debit,False
+2025-05-12T22:56,Auchan,-126.0,USD,groceries,main_debit,False
+2025-05-13T10:13,Lviv Croissants,-4.32,USD,coffee,main_debit,False
+2025-05-13T13:42,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-05-13T22:46,Uklon,-4.64,USD,transport,main_debit,False
+2025-05-14T07:42,Aroma Kava,-3.1,USD,coffee,main_debit,False
+2025-05-14T14:00,Credit Card Payment,-519.59,USD,credit_payment,main_debit,False
+2025-05-14T17:56,KyivPass,-8,USD,transport,main_debit,False
+2025-05-15T09:10,Vodokanal,-21.5,USD,utilities,main_debit,True
+2025-05-15T09:42,Aroma Kava,-4.44,USD,coffee,main_debit,False
+2025-05-15T14:09,Novus,-77.0,USD,groceries,main_debit,False
+2025-05-15T15:15,KyivPass,-8,USD,transport,main_debit,False
+2025-05-15T18:29,KyivEnergo,-69.0,USD,utilities,main_debit,True
+2025-05-16T08:35,Aroma Kava,-3.62,USD,coffee,main_debit,False
+2025-05-16T14:43,Comfy,-58.5,USD,shopping,main_debit,False
+2025-05-16T22:28,Uklon,-7.53,USD,transport,main_debit,False
+2025-05-17T20:37,ATB,-27.0,USD,groceries,main_debit,False
+2025-05-18T11:47,ATB,-29.0,USD,groceries,main_debit,False
+2025-05-18T19:38,Kanapa,-66.0,USD,restaurants,main_debit,False
+2025-05-19T10:41,Lviv Croissants,-4.14,USD,coffee,main_debit,False
+2025-05-19T22:31,Novus,-52.0,USD,groceries,main_debit,False
+2025-05-20T10:55,Lviv Croissants,-4.24,USD,coffee,main_debit,False
+2025-05-20T16:59,Silpo,-21.5,USD,groceries,main_debit,False
+2025-05-21T09:43,Aroma Kava,-3.5,USD,coffee,main_debit,False
+2025-05-21T10:35,Apple One,-15,USD,subscriptions,main_debit,True
+2025-05-21T18:47,Auchan,-175.5,USD,groceries,main_debit,False
+2025-05-21T19:34,Uklon,-4.18,USD,transport,main_debit,False
+2025-05-22T07:52,Aroma Kava,-3.55,USD,coffee,main_debit,False
+2025-05-22T11:04,KyivPass,-8,USD,transport,main_debit,False
+2025-05-22T11:36,Spotify,-5,USD,subscriptions,main_debit,True
+2025-05-22T17:40,H&M,-60.5,USD,shopping,main_debit,False
+2025-05-23T08:00,Lviv Croissants,-4.98,USD,coffee,main_debit,False
+2025-05-23T12:34,KyivPass,-8,USD,transport,main_debit,False
+2025-05-23T22:11,H&M,-101.5,USD,shopping,main_debit,False
+2025-05-24T09:49,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-05-24T16:26,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-05-24T17:33,Silpo,-44.0,USD,groceries,main_debit,False
+2025-05-24T21:29,Bolt Food,-11.5,USD,delivery,main_debit,False
+2025-05-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-05-26T09:03,Lviv Croissants,-4.13,USD,coffee,main_debit,False
+2025-05-26T13:36,Uklon,-7.51,USD,transport,main_debit,False
+2025-05-27T11:37,Steam,-11.0,USD,entertainment,main_debit,False
+2025-05-27T17:42,KyivPass,-8,USD,transport,main_debit,False
+2025-05-27T22:04,Auchan,-78.0,USD,groceries,main_debit,False
+2025-05-28T09:15,Aroma Kava,-3.1,USD,coffee,main_debit,False
+2025-05-29T09:03,Blue Bottle,-5.81,USD,coffee,main_debit,False
+2025-05-29T13:38,Silpo,-104.0,USD,groceries,main_debit,False
+2025-05-29T15:31,Med Clinic,-165.5,USD,health,main_debit,False
+2025-05-30T09:11,Blue Bottle,-6.35,USD,coffee,main_debit,False
+2025-05-30T12:51,KyivPass,-8,USD,transport,main_debit,False
+2025-05-30T19:50,Zara,-53.0,USD,shopping,main_debit,False
+2025-05-31T20:23,Glovo,-33.5,USD,delivery,main_debit,False
+2025-06-01T09:22,Auchan,-54.5,USD,groceries,main_debit,False
+2025-06-02T08:46,Lviv Croissants,-4.16,USD,coffee,main_debit,False
+2025-06-03T08:04,Lviv Croissants,-3.81,USD,coffee,main_debit,False
+2025-06-03T15:50,Novus,-56.5,USD,groceries,main_debit,False
+2025-06-03T17:24,Med Clinic,-93.0,USD,health,main_debit,False
+2025-06-03T20:38,Glovo,-28.5,USD,delivery,main_debit,False
+2025-06-04T09:52,Lviv Croissants,-4.32,USD,coffee,main_debit,False
+2025-06-05T08:18,Aroma Kava,-4.43,USD,coffee,main_debit,False
+2025-06-06T10:12,Lviv Croissants,-3.34,USD,coffee,main_debit,False
+2025-06-06T16:38,Netflix,-12,USD,subscriptions,main_debit,True
+2025-06-07T22:43,Uber Eats,-16.5,USD,delivery,main_debit,False
+2025-06-08T16:32,H&M,-80.5,USD,shopping,main_debit,False
+2025-06-08T16:59,Vodokanal,-20.5,USD,utilities,main_debit,True
+2025-06-09T13:28,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-06-09T13:44,ATB,-66.5,USD,groceries,main_debit,False
+2025-06-09T22:05,KyivPass,-8,USD,transport,main_debit,False
+2025-06-10T09:16,Auchan,-55.0,USD,groceries,main_debit,False
+2025-06-10T09:48,Blue Bottle,-4.11,USD,coffee,main_debit,False
+2025-06-10T17:34,KyivEnergo,-70.5,USD,utilities,main_debit,True
+2025-06-11T10:44,Lviv Croissants,-5.32,USD,coffee,main_debit,False
+2025-06-11T16:20,Apple One,-15,USD,subscriptions,main_debit,True
+2025-06-11T22:05,Bolt,-5.66,USD,transport,main_debit,False
+2025-06-12T09:01,KyivPass,-8,USD,transport,main_debit,False
+2025-06-12T10:30,Lviv Croissants,-5.35,USD,coffee,main_debit,False
+2025-06-12T14:00,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-06-12T19:28,ATB,-43.5,USD,groceries,main_debit,False
+2025-06-13T08:35,Blue Bottle,-4.61,USD,coffee,main_debit,False
+2025-06-13T11:51,Auchan,-174.0,USD,groceries,main_debit,False
+2025-06-13T18:27,KyivPass,-8,USD,transport,main_debit,False
+2025-06-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-06-14T19:13,Auchan,-94.5,USD,groceries,main_debit,False
+2025-06-14T20:55,Puzata Hata,-14.0,USD,restaurants,main_debit,False
+2025-06-15T18:20,Auchan,-114.0,USD,groceries,main_debit,False
+2025-06-15T22:22,Spotify,-5,USD,subscriptions,main_debit,True
+2025-06-16T09:58,Blue Bottle,-4.43,USD,coffee,main_debit,False
+2025-06-16T12:11,Glovo,-17.5,USD,delivery,main_debit,False
+2025-06-16T14:38,Bolt,-7.6,USD,transport,main_debit,False
+2025-06-17T08:35,Blue Bottle,-6.3,USD,coffee,main_debit,False
+2025-06-17T13:53,Novus,-35.5,USD,groceries,main_debit,False
+2025-06-17T15:08,Uklon,-9.66,USD,transport,main_debit,False
+2025-06-18T09:45,Lviv Croissants,-5.05,USD,coffee,main_debit,False
+2025-06-18T10:49,Cinema City,-12.0,USD,entertainment,main_debit,False
+2025-06-18T11:18,Bolt,-10.16,USD,transport,main_debit,False
+2025-06-19T08:17,Blue Bottle,-5.28,USD,coffee,main_debit,False
+2025-06-19T15:34,Bolt,-9.84,USD,transport,main_debit,False
+2025-06-20T07:28,Aroma Kava,-3.1,USD,coffee,main_debit,False
+2025-06-20T09:49,ATB,-43.5,USD,groceries,main_debit,False
+2025-06-20T17:44,KyivPass,-8,USD,transport,main_debit,False
+2025-06-21T21:13,Silpo,-98.5,USD,groceries,main_debit,False
+2025-06-22T12:54,Novus,-46.5,USD,groceries,main_debit,False
+2025-06-23T09:55,Lviv Croissants,-5.76,USD,coffee,main_debit,False
+2025-06-23T21:15,Bolt,-9.4,USD,transport,main_debit,False
+2025-06-24T09:28,Lviv Croissants,-4.88,USD,coffee,main_debit,False
+2025-06-24T19:17,ATB,-41.0,USD,groceries,main_debit,False
+2025-06-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-06-25T13:54,Kyivska Perepichka,-4.99,USD,restaurants,main_debit,False
+2025-06-25T14:13,KyivPass,-8,USD,transport,main_debit,False
+2025-06-25T18:27,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-06-26T10:08,Lviv Croissants,-4.01,USD,coffee,main_debit,False
+2025-06-26T15:01,Bookstore,-20.68,USD,entertainment,main_debit,False
+2025-06-26T20:03,KyivPass,-8,USD,transport,main_debit,False
+2025-06-27T08:12,Aroma Kava,-4.48,USD,coffee,main_debit,False
+2025-06-28T13:26,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-06-28T13:42,Novus,-44.0,USD,groceries,main_debit,False
+2025-06-28T19:44,Steam,-41.5,USD,entertainment,main_debit,False
+2025-06-29T15:04,ATB,-15.0,USD,groceries,main_debit,False
+2025-06-29T19:44,Uber Eats,-26.0,USD,delivery,main_debit,False
+2025-06-30T09:05,Lviv Croissants,-3.21,USD,coffee,main_debit,False
+2025-06-30T13:41,Bolt Food,-12.5,USD,delivery,main_debit,False
+2025-06-30T19:13,ANC Pharmacy,-24.8,USD,health,main_debit,False
+2025-07-01T09:08,Silpo,-28.5,USD,groceries,main_debit,False
+2025-07-01T09:43,Aroma Kava,-4.34,USD,coffee,main_debit,False
+2025-07-01T12:14,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-07-02T08:35,Lviv Croissants,-4.93,USD,coffee,main_debit,False
+2025-07-02T08:54,KyivPass,-8,USD,transport,main_debit,False
+2025-07-03T08:41,Aroma Kava,-4.0,USD,coffee,main_debit,False
+2025-07-03T09:15,Silpo,-69.5,USD,groceries,main_debit,False
+2025-07-04T11:02,Rozetka,-23.0,USD,shopping,main_debit,False
+2025-07-04T18:11,Auchan,-91.0,USD,groceries,main_debit,False
+2025-07-05T12:05,Comfy,-140.0,USD,shopping,main_debit,False
+2025-07-05T19:52,KyivEnergo,-78.5,USD,utilities,main_debit,True
+2025-07-05T22:19,Apple One,-15,USD,subscriptions,main_debit,True
+2025-07-05T22:27,Uber Eats,-27.5,USD,delivery,main_debit,False
+2025-07-06T14:37,Silpo,-73.5,USD,groceries,main_debit,False
+2025-07-07T08:03,Blue Bottle,-6.38,USD,coffee,main_debit,False
+2025-07-07T09:00,Kyivska Perepichka,-5.22,USD,restaurants,main_debit,False
+2025-07-07T09:02,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-07-07T17:38,Auchan,-56.0,USD,groceries,main_debit,False
+2025-07-07T21:20,Sportlife,-15,USD,subscriptions,main_debit,True
+2025-07-08T09:08,Blue Bottle,-4.65,USD,coffee,main_debit,False
+2025-07-09T08:31,Blue Bottle,-4.16,USD,coffee,main_debit,False
+2025-07-09T10:23,KyivPass,-8,USD,transport,main_debit,False
+2025-07-09T16:35,Vodokanal,-29.0,USD,utilities,main_debit,True
+2025-07-10T09:00,Aroma Kava,-2.96,USD,coffee,main_debit,False
+2025-07-10T15:23,ATB,-31.0,USD,groceries,main_debit,False
+2025-07-10T22:45,Bolt,-7.98,USD,transport,main_debit,False
+2025-07-11T08:36,Blue Bottle,-4.8,USD,coffee,main_debit,False
+2025-07-11T20:33,ATB,-26.5,USD,groceries,main_debit,False
+2025-07-12T19:36,Glovo,-20.5,USD,delivery,main_debit,False
+2025-07-13T20:12,Auchan,-179.5,USD,groceries,main_debit,False
+2025-07-14T08:09,Bolt,-6.78,USD,transport,main_debit,False
+2025-07-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-07-14T16:26,Comfy,-363.0,USD,shopping,main_debit,False
+2025-07-14T19:56,Novus,-72.5,USD,groceries,main_debit,False
+2025-07-14T21:06,Uber Eats,-24.5,USD,delivery,main_debit,False
+2025-07-14T22:36,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-07-15T08:32,Blue Bottle,-4.21,USD,coffee,main_debit,False
+2025-07-15T17:03,Auchan,-50.5,USD,groceries,main_debit,False
+2025-07-16T09:20,Blue Bottle,-6.08,USD,coffee,main_debit,False
+2025-07-17T09:07,Lviv Croissants,-4.4,USD,coffee,main_debit,False
+2025-07-17T21:07,Uklon,-6.24,USD,transport,main_debit,False
+2025-07-18T09:09,Blue Bottle,-4.1,USD,coffee,main_debit,False
+2025-07-18T14:32,Silpo,-117.0,USD,groceries,main_debit,False
+2025-07-18T16:15,KyivPass,-8,USD,transport,main_debit,False
+2025-07-18T20:54,Glovo,-12.5,USD,delivery,main_debit,False
+2025-07-19T11:08,ATB,-69.0,USD,groceries,main_debit,False
+2025-07-19T19:37,Uber Eats,-31.0,USD,delivery,main_debit,False
+2025-07-20T08:33,Spotify,-5,USD,subscriptions,main_debit,True
+2025-07-20T21:53,Puzata Hata,-9.0,USD,restaurants,main_debit,False
+2025-07-21T09:31,Blue Bottle,-5.08,USD,coffee,main_debit,False
+2025-07-21T11:41,H&M,-38.0,USD,shopping,main_debit,False
+2025-07-21T11:58,Auchan,-64.0,USD,groceries,main_debit,False
+2025-07-21T21:39,Glovo,-13.0,USD,delivery,main_debit,False
+2025-07-21T22:35,Uklon,-6.49,USD,transport,main_debit,False
+2025-07-22T08:24,Blue Bottle,-6.49,USD,coffee,main_debit,False
+2025-07-22T17:32,Uklon,-5.41,USD,transport,main_debit,False
+2025-07-22T20:49,ANC Pharmacy,-6.32,USD,health,main_debit,False
+2025-07-23T10:14,Lviv Croissants,-4.59,USD,coffee,main_debit,False
+2025-07-23T20:58,Kanapa,-49.0,USD,restaurants,main_debit,False
+2025-07-24T08:18,Netflix,-12,USD,subscriptions,main_debit,True
+2025-07-24T17:09,Zara,-172.0,USD,shopping,main_debit,False
+2025-07-24T17:20,Silpo,-37.5,USD,groceries,main_debit,False
+2025-07-25T08:31,Lviv Croissants,-4.63,USD,coffee,main_debit,False
+2025-07-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-07-25T11:01,ATB,-30.0,USD,groceries,main_debit,False
+2025-07-25T11:51,KyivPass,-8,USD,transport,main_debit,False
+2025-07-26T09:23,Bookstore,-22.21,USD,entertainment,main_debit,False
+2025-07-26T20:49,Uber Eats,-32.5,USD,delivery,main_debit,False
+2025-07-27T10:10,Novus,-47.5,USD,groceries,main_debit,False
+2025-07-28T09:14,Blue Bottle,-6.42,USD,coffee,main_debit,False
+2025-07-28T19:18,KyivPass,-8,USD,transport,main_debit,False
+2025-07-29T13:58,ATB,-27.0,USD,groceries,main_debit,False
+2025-07-30T08:10,Aroma Kava,-2.98,USD,coffee,main_debit,False
+2025-07-31T07:22,Aroma Kava,-3.0,USD,coffee,main_debit,False
+2025-07-31T08:24,ATB,-62.0,USD,groceries,main_debit,False
+2025-07-31T15:56,Bolt,-10.96,USD,transport,main_debit,False
+2025-08-01T08:10,Blue Bottle,-5.63,USD,coffee,main_debit,False
+2025-08-01T09:04,Bolt,-5.87,USD,transport,main_debit,False
+2025-08-02T17:57,ATB,-37.0,USD,groceries,main_debit,False
+2025-08-02T22:27,Bookstore,-8.3,USD,entertainment,main_debit,False
+2025-08-03T16:46,Silpo,-61.0,USD,groceries,main_debit,False
+2025-08-04T09:09,Lviv Croissants,-4.72,USD,coffee,main_debit,False
+2025-08-04T09:30,Comfy,-269.5,USD,shopping,main_debit,False
+2025-08-04T12:52,ATB,-43.0,USD,groceries,main_debit,False
+2025-08-05T10:16,Lviv Croissants,-4.41,USD,coffee,main_debit,False
+2025-08-05T12:14,Uklon,-6.08,USD,transport,main_debit,False
+2025-08-05T12:23,Spotify,-5,USD,subscriptions,main_debit,True
+2025-08-05T22:24,Auchan,-66.0,USD,groceries,main_debit,False
+2025-08-06T08:51,Aroma Kava,-2.67,USD,coffee,main_debit,False
+2025-08-06T20:30,Vodokanal,-26.0,USD,utilities,main_debit,True
+2025-08-07T08:32,KyivPass,-8,USD,transport,main_debit,False
+2025-08-07T09:36,Blue Bottle,-5.72,USD,coffee,main_debit,False
+2025-08-07T15:52,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-08-08T10:13,Auchan,-64.0,USD,groceries,main_debit,False
+2025-08-08T18:27,Uklon,-3.55,USD,transport,main_debit,False
+2025-08-09T20:19,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-08-09T20:33,Bolt Food,-21.0,USD,delivery,main_debit,False
+2025-08-09T22:51,Novus,-93.5,USD,groceries,main_debit,False
+2025-08-10T10:09,Auchan,-56.0,USD,groceries,main_debit,False
+2025-08-11T08:47,Med Clinic,-150.5,USD,health,main_debit,False
+2025-08-11T09:56,Aroma Kava,-4.07,USD,coffee,main_debit,False
+2025-08-11T10:39,Bolt,-5.48,USD,transport,main_debit,False
+2025-08-11T18:31,Auchan,-77.0,USD,groceries,main_debit,False
+2025-08-12T08:21,Lviv Croissants,-5.69,USD,coffee,main_debit,False
+2025-08-12T18:06,Uklon,-9.01,USD,transport,main_debit,False
+2025-08-13T09:38,Lviv Croissants,-3.81,USD,coffee,main_debit,False
+2025-08-13T10:04,Bolt,-7.64,USD,transport,main_debit,False
+2025-08-13T22:55,Bolt Food,-25.0,USD,delivery,main_debit,False
+2025-08-14T12:23,Uklon,-7.93,USD,transport,main_debit,False
+2025-08-14T13:02,Glovo,-31.5,USD,delivery,main_debit,False
+2025-08-14T14:00,Credit Card Payment,-453.39,USD,credit_payment,main_debit,False
+2025-08-14T21:58,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-08-14T22:13,KyivEnergo,-60.0,USD,utilities,main_debit,True
+2025-08-15T08:38,Aroma Kava,-2.98,USD,coffee,main_debit,False
+2025-08-15T09:18,Kyivska Perepichka,-5.49,USD,restaurants,main_debit,False
+2025-08-15T13:09,Netflix,-12,USD,subscriptions,main_debit,True
+2025-08-15T13:22,Auchan,-122.0,USD,groceries,main_debit,False
+2025-08-15T17:49,Bolt,-4.47,USD,transport,main_debit,False
+2025-08-16T12:45,Zara,-121.5,USD,shopping,main_debit,False
+2025-08-16T17:51,Cinema City,-12.5,USD,entertainment,main_debit,False
+2025-08-16T23:43,Glovo,-32.0,USD,delivery,main_debit,False
+2025-08-17T21:22,Auchan,-165.5,USD,groceries,main_debit,False
+2025-08-18T09:35,Blue Bottle,-4.26,USD,coffee,main_debit,False
+2025-08-18T13:17,Bolt,-7.34,USD,transport,main_debit,False
+2025-08-19T08:33,Blue Bottle,-4.75,USD,coffee,main_debit,False
+2025-08-19T11:14,Apple One,-15,USD,subscriptions,main_debit,True
+2025-08-20T09:18,Blue Bottle,-4.06,USD,coffee,main_debit,False
+2025-08-20T19:02,Auchan,-96.5,USD,groceries,main_debit,False
+2025-08-21T09:32,Blue Bottle,-5.96,USD,coffee,main_debit,False
+2025-08-21T22:35,Silpo,-104.0,USD,groceries,main_debit,False
+2025-08-21T22:51,Glovo,-29.0,USD,delivery,main_debit,False
+2025-08-22T09:55,Aroma Kava,-3.21,USD,coffee,main_debit,False
+2025-08-22T17:18,Novus,-53.0,USD,groceries,main_debit,False
+2025-08-22T17:37,Bolt,-10.8,USD,transport,main_debit,False
+2025-08-22T21:43,Comfy,-220.0,USD,shopping,main_debit,False
+2025-08-23T10:08,ATB,-71.5,USD,groceries,main_debit,False
+2025-08-24T15:21,Puzata Hata,-16.0,USD,restaurants,main_debit,False
+2025-08-25T08:36,Lviv Croissants,-3.63,USD,coffee,main_debit,False
+2025-08-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-08-26T08:34,Lviv Croissants,-4.15,USD,coffee,main_debit,False
+2025-08-26T18:46,Bolt,-9.09,USD,transport,main_debit,False
+2025-08-26T22:20,Novus,-96.5,USD,groceries,main_debit,False
+2025-08-27T09:10,Lviv Croissants,-4.51,USD,coffee,main_debit,False
+2025-08-27T12:29,ATB,-34.5,USD,groceries,main_debit,False
+2025-08-28T08:10,Lviv Croissants,-4.08,USD,coffee,main_debit,False
+2025-08-28T10:13,Bolt,-5.02,USD,transport,main_debit,False
+2025-08-29T08:03,Rozetka,-170.5,USD,shopping,main_debit,False
+2025-08-29T09:56,Blue Bottle,-5.98,USD,coffee,main_debit,False
+2025-08-30T12:30,Auchan,-57.5,USD,groceries,main_debit,False
+2025-08-30T18:33,Med Clinic,-146.0,USD,health,main_debit,False
+2025-08-31T22:06,Silpo,-62.0,USD,groceries,main_debit,False
+2025-09-01T09:53,Blue Bottle,-4.5,USD,coffee,main_debit,False
+2025-09-01T19:59,H&M,-111.5,USD,shopping,main_debit,False
+2025-09-02T07:53,Aroma Kava,-3.84,USD,coffee,main_debit,False
+2025-09-02T18:14,Rozetka,-228.0,USD,shopping,main_debit,False
+2025-09-03T10:21,Comfy,-279.0,USD,shopping,main_debit,False
+2025-09-03T10:55,ATB,-21.5,USD,groceries,main_debit,False
+2025-09-03T19:06,Uber Eats,-23.0,USD,delivery,main_debit,False
+2025-09-03T20:03,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-09-04T08:23,Blue Bottle,-4.67,USD,coffee,main_debit,False
+2025-09-04T17:41,Netflix,-12,USD,subscriptions,main_debit,True
+2025-09-04T21:44,Bolt Food,-15.5,USD,delivery,main_debit,False
+2025-09-05T08:06,Blue Bottle,-5.82,USD,coffee,main_debit,False
+2025-09-05T18:28,Auchan,-152.5,USD,groceries,main_debit,False
+2025-09-05T23:56,Bolt Food,-22.0,USD,delivery,main_debit,False
+2025-09-06T09:16,Auchan,-101.5,USD,groceries,main_debit,False
+2025-09-06T19:36,Bookstore,-15.5,USD,entertainment,main_debit,False
+2025-09-08T09:42,Blue Bottle,-4.62,USD,coffee,main_debit,False
+2025-09-08T19:41,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-09-09T08:54,Aroma Kava,-3.51,USD,coffee,main_debit,False
+2025-09-09T12:03,Kanapa,-36.0,USD,restaurants,main_debit,False
+2025-09-09T18:24,KyivPass,-8,USD,transport,main_debit,False
+2025-09-10T08:06,Auchan,-144.5,USD,groceries,main_debit,False
+2025-09-10T08:46,Spotify,-5,USD,subscriptions,main_debit,True
+2025-09-10T08:52,KyivPass,-8,USD,transport,main_debit,False
+2025-09-10T09:28,Lviv Croissants,-3.26,USD,coffee,main_debit,False
+2025-09-10T21:27,KyivEnergo,-57.5,USD,utilities,main_debit,True
+2025-09-11T09:21,Blue Bottle,-5.41,USD,coffee,main_debit,False
+2025-09-11T09:55,Vodokanal,-29.0,USD,utilities,main_debit,True
+2025-09-11T21:29,ATB,-68.0,USD,groceries,main_debit,False
+2025-09-12T07:00,Aroma Kava,-4.02,USD,coffee,main_debit,False
+2025-09-12T13:44,Novus,-66.0,USD,groceries,main_debit,False
+2025-09-12T19:47,Kanapa,-31.5,USD,restaurants,main_debit,False
+2025-09-13T12:48,Glovo,-28.5,USD,delivery,main_debit,False
+2025-09-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-09-14T17:32,Auchan,-104.0,USD,groceries,main_debit,False
+2025-09-14T22:00,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-09-14T22:53,Uber Eats,-33.5,USD,delivery,main_debit,False
+2025-09-15T17:38,Puzata Hata,-12.0,USD,restaurants,main_debit,False
+2025-09-17T09:53,Blue Bottle,-6.22,USD,coffee,main_debit,False
+2025-09-18T10:08,Lviv Croissants,-5.06,USD,coffee,main_debit,False
+2025-09-19T10:36,Lviv Croissants,-4.69,USD,coffee,main_debit,False
+2025-09-20T08:24,ATB,-49.0,USD,groceries,main_debit,False
+2025-09-20T20:10,Puzata Hata,-10.5,USD,restaurants,main_debit,False
+2025-09-21T16:02,Novus,-40.5,USD,groceries,main_debit,False
+2025-09-21T20:47,Uber Eats,-36.5,USD,delivery,main_debit,False
+2025-09-22T08:59,Blue Bottle,-4.72,USD,coffee,main_debit,False
+2025-09-22T12:12,KyivPass,-8,USD,transport,main_debit,False
+2025-09-22T18:20,Auchan,-174.0,USD,groceries,main_debit,False
+2025-09-23T09:48,Blue Bottle,-5.76,USD,coffee,main_debit,False
+2025-09-23T11:18,KyivPass,-8,USD,transport,main_debit,False
+2025-09-24T13:10,Bolt Food,-21.0,USD,delivery,main_debit,False
+2025-09-25T09:03,Aroma Kava,-4.36,USD,coffee,main_debit,False
+2025-09-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-09-26T08:11,Blue Bottle,-4.79,USD,coffee,main_debit,False
+2025-09-26T16:25,KyivPass,-8,USD,transport,main_debit,False
+2025-09-26T17:24,Apple One,-15,USD,subscriptions,main_debit,True
+2025-09-27T20:39,Novus,-47.0,USD,groceries,main_debit,False
+2025-09-28T22:41,Novus,-58.5,USD,groceries,main_debit,False
+2025-09-29T09:46,Aroma Kava,-3.27,USD,coffee,main_debit,False
+2025-09-29T11:20,KyivPass,-8,USD,transport,main_debit,False
+2025-09-29T16:28,Novus,-63.5,USD,groceries,main_debit,False
+2025-09-30T20:55,Uber Eats,-30.5,USD,delivery,main_debit,False
+2025-10-01T09:03,Med Clinic,-46.0,USD,health,main_debit,False
+2025-10-02T10:52,Lviv Croissants,-4.67,USD,coffee,main_debit,False
+2025-10-02T15:40,Novus,-55.5,USD,groceries,main_debit,False
+2025-10-02T16:00,Uklon,-7.71,USD,transport,main_debit,False
+2025-10-03T09:59,Blue Bottle,-6.12,USD,coffee,main_debit,False
+2025-10-04T16:14,ATB,-46.0,USD,groceries,main_debit,False
+2025-10-04T20:19,Uber Eats,-22.5,USD,delivery,main_debit,False
+2025-10-05T10:07,Kyivska Perepichka,-5.62,USD,restaurants,main_debit,False
+2025-10-05T16:35,Bookstore,-16.93,USD,entertainment,main_debit,False
+2025-10-06T09:57,Blue Bottle,-4.86,USD,coffee,main_debit,False
+2025-10-06T11:27,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-10-06T12:12,Bolt,-8.55,USD,transport,main_debit,False
+2025-10-07T08:18,Blue Bottle,-5.15,USD,coffee,main_debit,False
+2025-10-07T15:21,KyivPass,-8,USD,transport,main_debit,False
+2025-10-08T08:31,Aroma Kava,-4.3,USD,coffee,main_debit,False
+2025-10-08T10:36,KyivPass,-8,USD,transport,main_debit,False
+2025-10-09T08:45,Lviv Croissants,-3.74,USD,coffee,main_debit,False
+2025-10-10T09:35,Lviv Croissants,-5.32,USD,coffee,main_debit,False
+2025-10-10T21:52,ATB,-69.5,USD,groceries,main_debit,False
+2025-10-10T23:04,Bolt Food,-24.5,USD,delivery,main_debit,False
+2025-10-11T16:30,Med Clinic,-127.0,USD,health,main_debit,False
+2025-10-12T21:08,Uber Eats,-33.5,USD,delivery,main_debit,False
+2025-10-13T08:19,Spotify,-5,USD,subscriptions,main_debit,True
+2025-10-13T08:48,Blue Bottle,-4.6,USD,coffee,main_debit,False
+2025-10-13T10:03,KyivEnergo,-75.0,USD,utilities,main_debit,True
+2025-10-13T18:55,KyivPass,-8,USD,transport,main_debit,False
+2025-10-14T07:04,Aroma Kava,-4.02,USD,coffee,main_debit,False
+2025-10-14T11:33,Silpo,-24.5,USD,groceries,main_debit,False
+2025-10-14T14:00,Credit Card Payment,-50.0,USD,credit_payment,main_debit,False
+2025-10-14T17:32,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-10-14T19:33,Bookstore,-11.48,USD,entertainment,main_debit,False
+2025-10-14T22:02,Uklon,-9.43,USD,transport,main_debit,False
+2025-10-15T08:24,Blue Bottle,-5.36,USD,coffee,main_debit,False
+2025-10-15T14:28,Vodokanal,-26.0,USD,utilities,main_debit,True
+2025-10-17T07:04,Aroma Kava,-3.38,USD,coffee,main_debit,False
+2025-10-17T08:20,Apple One,-15,USD,subscriptions,main_debit,True
+2025-10-17T19:52,Bolt,-6.26,USD,transport,main_debit,False
+2025-10-18T17:09,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-10-19T20:40,Uber Eats,-30.0,USD,delivery,main_debit,False
+2025-10-20T08:38,Aroma Kava,-3.53,USD,coffee,main_debit,False
+2025-10-21T09:10,Blue Bottle,-6.48,USD,coffee,main_debit,False
+2025-10-21T16:16,KyivPass,-8,USD,transport,main_debit,False
+2025-10-21T20:37,Auchan,-124.0,USD,groceries,main_debit,False
+2025-10-21T20:40,Netflix,-12,USD,subscriptions,main_debit,True
+2025-10-22T08:08,Aroma Kava,-2.96,USD,coffee,main_debit,False
+2025-10-22T22:32,Silpo,-72.5,USD,groceries,main_debit,False
+2025-10-23T08:05,Blue Bottle,-5.26,USD,coffee,main_debit,False
+2025-10-23T20:43,Puzata Hata,-17.0,USD,restaurants,main_debit,False
+2025-10-24T08:50,Aroma Kava,-4.38,USD,coffee,main_debit,False
+2025-10-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-10-25T11:58,Novus,-61.0,USD,groceries,main_debit,False
+2025-10-26T09:33,ATB,-52.5,USD,groceries,main_debit,False
+2025-10-26T12:16,Steam,-42.5,USD,entertainment,main_debit,False
+2025-10-26T14:23,Kyivska Perepichka,-5.41,USD,restaurants,main_debit,False
+2025-10-27T09:48,Lviv Croissants,-5.98,USD,coffee,main_debit,False
+2025-10-27T16:35,Auchan,-65.0,USD,groceries,main_debit,False
+2025-10-28T08:28,Blue Bottle,-4.3,USD,coffee,main_debit,False
+2025-10-28T14:50,KyivPass,-8,USD,transport,main_debit,False
+2025-10-29T09:00,Aroma Kava,-3.28,USD,coffee,main_debit,False
+2025-10-29T14:05,KyivPass,-8,USD,transport,main_debit,False
+2025-10-30T09:39,Lviv Croissants,-5.79,USD,coffee,main_debit,False
+2025-10-31T09:59,Aroma Kava,-2.9,USD,coffee,main_debit,False
+2025-10-31T16:33,KyivPass,-8,USD,transport,main_debit,False
+2025-11-01T09:17,ATB,-78.5,USD,groceries,main_debit,False
+2025-11-02T16:18,ATB,-74.5,USD,groceries,main_debit,False
+2025-11-03T07:29,Aroma Kava,-3.71,USD,coffee,main_debit,False
+2025-11-03T15:36,Apple One,-15,USD,subscriptions,main_debit,True
+2025-11-03T16:04,Uklon,-6.54,USD,transport,main_debit,False
+2025-11-04T10:16,Lviv Croissants,-5.63,USD,coffee,main_debit,False
+2025-11-05T08:30,Lviv Croissants,-5.69,USD,coffee,main_debit,False
+2025-11-05T10:21,Spotify,-5,USD,subscriptions,main_debit,True
+2025-11-05T13:33,Uklon,-5.89,USD,transport,main_debit,False
+2025-11-05T20:14,ATB,-40.0,USD,groceries,main_debit,False
+2025-11-06T09:04,Lviv Croissants,-5.02,USD,coffee,main_debit,False
+2025-11-06T19:11,Glovo,-32.5,USD,delivery,main_debit,False
+2025-11-07T09:13,Blue Bottle,-4.61,USD,coffee,main_debit,False
+2025-11-07T13:09,Silpo,-103.5,USD,groceries,main_debit,False
+2025-11-07T15:35,Vodokanal,-26.5,USD,utilities,main_debit,True
+2025-11-07T18:31,Bolt,-9.08,USD,transport,main_debit,False
+2025-11-08T13:31,Auchan,-92.0,USD,groceries,main_debit,False
+2025-11-08T15:25,Internet KyivStar,-12,USD,utilities,main_debit,True
+2025-11-09T16:27,KyivEnergo,-44.5,USD,utilities,main_debit,True
+2025-11-09T20:36,Novus,-55.0,USD,groceries,main_debit,False
+2025-11-09T22:02,Bolt Food,-19.5,USD,delivery,main_debit,False
+2025-11-10T08:20,Aroma Kava,-3.9,USD,coffee,main_debit,False
+2025-11-10T20:25,Netflix,-12,USD,subscriptions,main_debit,True
+2025-11-10T21:39,Uber Eats,-17.5,USD,delivery,main_debit,False
+2025-11-11T10:36,Uklon,-4.96,USD,transport,main_debit,False
+2025-11-11T11:26,Silpo,-70.0,USD,groceries,main_debit,False
+2025-11-12T10:27,Lviv Croissants,-5.41,USD,coffee,main_debit,False
+2025-11-12T20:00,Kyivska Perepichka,-3.45,USD,restaurants,main_debit,False
+2025-11-12T22:54,Uklon,-3.94,USD,transport,main_debit,False
+2025-11-13T10:03,Lviv Croissants,-4.69,USD,coffee,main_debit,False
+2025-11-13T21:16,Silpo,-26.0,USD,groceries,main_debit,False
+2025-11-14T09:07,Lviv Croissants,-4.03,USD,coffee,main_debit,False
+2025-11-14T14:00,Credit Card Payment,-413.92,USD,credit_payment,main_debit,False
+2025-11-14T18:41,Silpo,-77.5,USD,groceries,main_debit,False
+2025-11-15T17:12,Mobile Lifecell,-8,USD,utilities,main_debit,True
+2025-11-15T17:36,Steam,-31.0,USD,entertainment,main_debit,False
+2025-11-15T20:55,Uber Eats,-22.0,USD,delivery,main_debit,False
+2025-11-16T13:41,Novus,-42.0,USD,groceries,main_debit,False
+2025-11-16T22:49,Uber Eats,-25.0,USD,delivery,main_debit,False
+2025-11-17T10:46,Silpo,-105.5,USD,groceries,main_debit,False
+2025-11-17T19:47,KyivPass,-8,USD,transport,main_debit,False
+2025-11-18T08:49,Lviv Croissants,-4.65,USD,coffee,main_debit,False
+2025-11-18T10:08,KyivPass,-8,USD,transport,main_debit,False
+2025-11-18T11:47,Kanapa,-39.0,USD,restaurants,main_debit,False
+2025-11-18T13:55,Med Clinic,-177.5,USD,health,main_debit,False
+2025-11-18T17:09,ATB,-22.0,USD,groceries,main_debit,False
+2025-11-19T09:08,Blue Bottle,-6.34,USD,coffee,main_debit,False
+2025-11-19T15:40,KyivPass,-8,USD,transport,main_debit,False
+2025-11-20T09:30,Blue Bottle,-4.77,USD,coffee,main_debit,False
+2025-11-20T10:19,Uklon,-5.89,USD,transport,main_debit,False
+2025-11-20T21:08,Bookstore,-21.31,USD,entertainment,main_debit,False
+2025-11-21T09:19,Lviv Croissants,-5.84,USD,coffee,main_debit,False
+2025-11-21T16:27,Bolt,-6.71,USD,transport,main_debit,False
+2025-11-21T17:14,Auchan,-151.5,USD,groceries,main_debit,False
+2025-11-22T09:27,Auchan,-71.0,USD,groceries,main_debit,False
+2025-11-23T14:12,Kyivska Perepichka,-5.43,USD,restaurants,main_debit,False
+2025-11-24T08:35,iCloud Storage,-3,USD,subscriptions,main_debit,True
+2025-11-24T09:12,Blue Bottle,-5.13,USD,coffee,main_debit,False
+2025-11-24T15:13,Bolt,-4.36,USD,transport,main_debit,False
+2025-11-24T16:01,Silpo,-25.0,USD,groceries,main_debit,False
+2025-11-24T21:46,Bolt Food,-12.5,USD,delivery,main_debit,False
+2025-11-25T10:00,ACME Corp Salary,2400.0,USD,salary,main_debit,True
+2025-11-25T20:25,Bolt,-3.5,USD,transport,main_debit,False
+2025-11-26T08:49,Lviv Croissants,-5.48,USD,coffee,main_debit,False
+2025-11-27T07:30,Aroma Kava,-3.54,USD,coffee,main_debit,False
+2025-11-27T10:40,Novus,-95.0,USD,groceries,main_debit,False
+2025-11-28T10:13,Lviv Croissants,-5.66,USD,coffee,main_debit,False
+2025-11-28T12:37,Bolt,-4.51,USD,transport,main_debit,False
+2025-11-28T19:30,ANC Pharmacy,-31.15,USD,health,main_debit,False
+2025-11-29T09:43,Puzata Hata,-9.5,USD,restaurants,main_debit,False
+2025-11-30T10:44,ATB,-38.0,USD,groceries,main_debit,False
+2025-11-30T16:50,Steam,-21.5,USD,entertainment,main_debit,False

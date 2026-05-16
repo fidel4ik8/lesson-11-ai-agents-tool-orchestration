@@ -1,0 +1,1082 @@
+[
+  {
+    "task_id": "stats_01_coffee_last_week",
+    "category": "stats",
+    "query": "Скільки витратив на каву минулого тижня?",
+    "architecture": "baseline",
+    "answer": "Минулого тижня ти витратив $26.73 на каву, зробивши 5 транзакцій. Середня вартість однієї покупки склала $5.35.",
+    "latency_ms": 3295,
+    "total_tokens": 3965,
+    "input_tokens": 3879,
+    "output_tokens": 86,
+    "cost_usd": 0.010557500000000001,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 3/3 numbers",
+      "judge_success": "The assistant's response meets all the criteria specified.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_02_top_categories_june",
+    "category": "stats",
+    "query": "Топ-5 категорій витрат за червень 2025?",
+    "architecture": "baseline",
+    "answer": "У червні 2025 року твої топ-5 категорій витрат були:\n\n1. Продукти: $982.50\n2. Здоров'я: $117.80\n3. Комунальні послуги: $111.00\n4. Доставка: $101.00\n5. Транспорт: $100.32\n\nЯкщо потрібна детальніша інформація або поради, дай знати!",
+    "latency_ms": 2132,
+    "total_tokens": 4147,
+    "input_tokens": 4012,
+    "output_tokens": 135,
+    "cost_usd": 0.011380000000000001,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.875,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 7/8 numbers; ungrounded: [-5.0]",
+      "judge_success": "The assistant response meets all the criteria specified in the user query.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_03_netflix_last_payment",
+    "category": "stats",
+    "query": "Коли була остання транзакція по Netflix?",
+    "architecture": "baseline",
+    "answer": "Остання транзакція по Netflix була 10 листопада 2025 року.",
+    "latency_ms": 1478,
+    "total_tokens": 4566,
+    "input_tokens": 4526,
+    "output_tokens": 40,
+    "cost_usd": 0.011715,
+    "tools_called": [
+      "find_recurring_subscriptions"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 0.5,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['query_transactions'] actual=['find_recurring_subscriptions'] missing=['query_transactions']",
+      "groundedness": "matched 1/2 numbers; ungrounded: [10.0]",
+      "judge_success": "violated=['Коротка відповідь без додаткових порад'] | rationale=The response is not short and contains a specific date and mentions Netflix, but it fails to meet the requirement for brevity.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_04_groceries_october",
+    "category": "stats",
+    "query": "Скільки я витратив на продукти у жовтні?",
+    "architecture": "baseline",
+    "answer": "У жовтні ти витратив $570.50 на продукти, зробивши 9 транзакцій.",
+    "latency_ms": 1608,
+    "total_tokens": 3949,
+    "input_tokens": 3881,
+    "output_tokens": 68,
+    "cost_usd": 0.0103825,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 2/2 numbers",
+      "judge_success": "violated=['Період — жовтень 2025'] | rationale=The assistant provided the correct amount and mentioned groceries, but the period specified was October 2025 instead of October 2023.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_05_weekend_vs_weekday",
+    "category": "stats",
+    "query": "Я більше витрачаю у вихідні чи у будні?",
+    "architecture": "baseline",
+    "answer": "Ти витрачаєш більше у будні дні. Загальні витрати у будні становлять $20,987.76, тоді як у вихідні — $8,102.69. Але середня витрата на транзакцію у вихідні вища — $45.27 проти $32.24 у будні.",
+    "latency_ms": 1648,
+    "total_tokens": 3952,
+    "input_tokens": 3858,
+    "output_tokens": 94,
+    "cost_usd": 0.010585,
+    "tools_called": [
+      "detect_pattern"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 0.3333333333333333,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['detect_pattern'] missing=['aggregate_spending']",
+      "groundedness": "matched 2/6 numbers; ungrounded: [20.987, 76.0, 8.102, 69.0]",
+      "judge_success": "The assistant clearly stated that the user spends more on weekdays, supported by specific numerical comparisons.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_01_save_200",
+    "category": "advice",
+    "query": "Де можу зекономити $200 цього місяця?",
+    "architecture": "baseline",
+    "answer": "Ось кілька ідей, де можна зекономити $200 цього місяця:\n\n1. **Продукти**: Витрати на продукти склали $1167. Можеш спробувати зменшити їх на 17%, що дасть $200 економії.\n2. **Доставка**: Витрати на доставку — $129. Спробуй готувати вдома частіше.\n3. **Кава**: На каву витрачено $84.10. Можливо, варто зменшити кількість покупок кави на винос.\n4. **Розваги**: Витрати на розваги — $73.81. Можна знайти безкоштовні або дешевші альтернативи.\n5. **Ресторани**: Витрати на ресторани — $57.38. Спробуй зменшити кількість відвідувань ресторанів.\n\nЦі зміни можуть допомогти досягти бажаної економії.",
+    "latency_ms": 3609,
+    "total_tokens": 4437,
+    "input_tokens": 4174,
+    "output_tokens": 263,
+    "cost_usd": 0.013065,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.7777777777777778,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 7/9 numbers; ungrounded: [200.0, 200.0]",
+      "judge_success": "Відповідь містить конкретні категорії витрат з можливими способами економії, що дозволяє досягти цільової економії.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_02_forgotten_subscriptions",
+    "category": "advice",
+    "query": "На які підписки я витрачаю найбільше та чи всі вони активні?",
+    "architecture": "baseline",
+    "answer": "Ось твої підписки з найбільшими витратами:\n\n1. **KyivEnergo**: $761 за рік, активна.\n2. **Vodokanal**: $286 за рік, активна.\n3. **Apple One**: $180 за рік, активна.\n4. **Internet KyivStar**: $144 за рік, активна.\n5. **Netflix**: $144 за рік, активна.\n\nЄ одна неактивна підписка:\n\n- **Sportlife**: $120 за рік, остання оплата була 146 днів тому.",
+    "latency_ms": 2480,
+    "total_tokens": 4696,
+    "input_tokens": 4544,
+    "output_tokens": 152,
+    "cost_usd": 0.012879999999999999,
+    "tools_called": [
+      "find_recurring_subscriptions"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['find_recurring_subscriptions'] actual=['find_recurring_subscriptions'] missing=[]",
+      "groundedness": "matched 8/8 numbers",
+      "judge_success": "violated=['Запропоновано конкретну дію (скасувати/перевірити)'] | rationale=Хоча асистент надав інформацію про підписки та виявив неактивну підписку, він не запропонував конкретну дію щодо неї.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_03_late_night_delivery",
+    "category": "advice",
+    "query": "Я багато замовляю їжу. Як можу скоротити?",
+    "architecture": "baseline",
+    "answer": "Цього місяця ти витратив $129 на доставку їжі. Ось кілька порад, як можна скоротити ці витрати:\n\n1. **Зменшити частоту замовлень**: Найбільше ти витрачаєш на Uber Eats — $64.5 за 3 замовлення. Можливо, варто зменшити кількість замовлень.\n\n2. **Порівнюй ціни**: Glovo і Bolt Food мають різні середні витрати за замовлення ($32.5 і $16 відповідно). Спробуй порівнювати ціни перед замовленням.\n\n3. **Використовуй акції та знижки**: Перевіряй наявність промокодів або спеціальних пропозицій у додатках.\n\n4. **Плануй заздалегідь**: Якщо замовляєш пізно ввечері, спробуй планувати їжу заздалегідь, щоб уникнути імпульсивних замовлень.\n\n5. **Готуй вдома**: Спробуй приготувати їжу вдома хоча б кілька разів на тиждень. Це може бути не тільки дешевше, але й корисніше.",
+    "latency_ms": 4674,
+    "total_tokens": 4273,
+    "input_tokens": 3946,
+    "output_tokens": 327,
+    "cost_usd": 0.013135,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.8,
+      "judge_success": 0.33333333333333337
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 4/5 numbers; ungrounded: [5.0]",
+      "judge_success": "violated=['Виявлено патерн пізніх замовлень (після 21:00) ИЛИ конкретні merchant-и', 'Кожна порада з actionable-кроком та оцінкою економії'] | rationale=Although the assistant mentioned the total amount spent on food delivery, it failed to identify a pattern of late orders or specific merchants, and the advice given lacked actionable steps with estimated savings.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_04_credit_card",
+    "category": "advice",
+    "query": "Як швидше виплатити кредитну картку?",
+    "architecture": "baseline",
+    "answer": "Я можу допомогти тобі проаналізувати витрати, щоб знайти можливості для економії, або перевірити, чи є у тебе підписки, які можна скасувати. Це може звільнити додаткові кошти для виплат по кредитній картці. Що саме ти хотів би дізнатися?",
+    "latency_ms": 1611,
+    "total_tokens": 1942,
+    "input_tokens": 1866,
+    "output_tokens": 76,
+    "cost_usd": 0.005425,
+    "tools_called": [],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 1.0,
+      "judge_success": 0.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=[] missing=['aggregate_spending']",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "violated=['Аналіз поточних платежів по credit_payment', 'Конкретні цифри з даних користувача (не generic)', 'Actionable-кроки'] | rationale=The assistant's response lacks specific analysis of current payments, does not provide concrete figures, and fails to outline actionable steps.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_05_weekend_spending",
+    "category": "advice",
+    "query": "Чому у вихідні витрачаю більше? Що можна змінити?",
+    "architecture": "baseline",
+    "answer": "У вихідні ти витрачаєш в середньому на 40% більше за одну транзакцію, ніж у будні. Ось кілька ідей, як можна це змінити:\n\n1. **Плануй покупки**: Спробуй робити великі покупки в будні, щоб уникнути імпульсивних витрат у вихідні.\n2. **Розваги вдома**: Замість виходу в ресторан чи кіно, спробуй організувати вечірку вдома або подивитися фільм з друзями.\n3. **Транспорт**: Перевір, чи можеш ти зекономити на транспорті, наприклад, використовуючи громадський транспорт або каршеринг.\n4. **Відстежуй витрати**: Встанови ліміт на вихідні витрати і слідкуй за ним через застосунок.\n5. **Аналізуй підписки**: Переглянь свої підписки, можливо, є ті, які ти використовуєш лише у вихідні і можеш від них відмовитися.",
+    "latency_ms": 4090,
+    "total_tokens": 4129,
+    "input_tokens": 3866,
+    "output_tokens": 263,
+    "cost_usd": 0.012295,
+    "tools_called": [
+      "detect_pattern"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 0.0,
+      "judge_success": 0.33333333333333337
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['detect_pattern'] missing=['aggregate_spending']",
+      "groundedness": "matched 0/2 numbers; ungrounded: [40.0, 5.0]",
+      "judge_success": "violated=['Виявлено топ-категорії на вихідних', 'Конкретні поради з очікуваною економією'] | rationale=Хоча відповідь підтверджує, що витрати у вихідні вищі, вона не надає інформації про топ-категорії витрат та не містить конкретних порад з очікуваною економією.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_01_yoy_change",
+    "category": "multi_step",
+    "query": "Порівняй мої витрати на доставку у першому кварталі і третьому кварталі 2025",
+    "architecture": "baseline",
+    "answer": "У першому кварталі 2025 року ти витратив на доставку $283.00, а в третьому кварталі — $510.50. Це збільшення на $227.50, що становить 80.4%.",
+    "latency_ms": 2330,
+    "total_tokens": 4919,
+    "input_tokens": 4807,
+    "output_tokens": 112,
+    "cost_usd": 0.0131375,
+    "tools_called": [
+      "compare_periods"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['compare_periods'] actual=['compare_periods'] missing=[]",
+      "groundedness": "matched 5/5 numbers",
+      "judge_success": "The assistant's response meets all the criteria by providing specific amounts for both quarters, the difference in both dollar amount and percentage, and a clear conclusion indicating an increase.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_02_projection_delivery_halved",
+    "category": "multi_step",
+    "query": "Якщо зменшу витрати на доставку вдвічі — скільки зекономлю за рік?",
+    "architecture": "baseline",
+    "answer": "За рік ти витратив на доставку $1529. Якщо зменшиш ці витрати вдвічі, зекономиш $764.5.",
+    "latency_ms": 9306,
+    "total_tokens": 3978,
+    "input_tokens": 3901,
+    "output_tokens": 77,
+    "cost_usd": 0.0105225,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.5,
+      "judge_success": 0.33333333333333337
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 1/2 numbers; ungrounded: [764.5]",
+      "judge_success": "violated=['Підрахунок очікуваної економії за рік', 'Числа реалістичні, не вигадані'] | rationale=Економія вказана неправильно, оскільки зменшення витрат вдвічі має призвести до економії $764.5, а не $764.5.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_03_month_close_plus",
+    "category": "multi_step",
+    "query": "Чи закрию я листопад у плюс?",
+    "architecture": "baseline",
+    "answer": "Так, ти закриєш листопад у плюс! Загалом за цей місяць у тебе залишилося $60.76 після всіх витрат і доходів.",
+    "latency_ms": 1801,
+    "total_tokens": 4252,
+    "input_tokens": 4172,
+    "output_tokens": 80,
+    "cost_usd": 0.01123,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.0,
+      "judge_success": 0.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 0/1 numbers; ungrounded: [60.76]",
+      "judge_success": "violated=['Порівняння доходу (salary) та витрат за листопад', 'Конкретні числа для обох частин', 'Чіткий висновок плюс/мінус з різницею'] | rationale=The assistant's response lacks specific details about income and expenses, and does not provide a clear comparison or conclusion.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "fraud_01_booking",
+    "category": "fraud",
+    "query": "На моїй кредитці $890 у Booking.com 3 грудня. Я не робив цю транзакцію.",
+    "architecture": "baseline",
+    "answer": "Якщо ти не робив цю транзакцію, важливо діяти швидко. Ось що можна зробити:\n\n1. Заблокуй картку в розділі \"Картки\" → \"Заблокувати\" у застосунку.\n2. Зв'яжися зі службою підтримки через чат у застосунку, щоб оформити dispute або chargeback.\n\nЯкщо хочеш, можу показати останні транзакції по цій картці.",
+    "latency_ms": 1392,
+    "total_tokens": 1984,
+    "input_tokens": 1881,
+    "output_tokens": 103,
+    "cost_usd": 0.0057325,
+    "tools_called": [],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0,
+      "escalation_correct": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "The assistant's response meets all the criteria by providing appropriate actions and maintaining an empathetic tone.",
+      "escalation_correct": "keywords_hit=['заблок', 'блок', 'підтримк', 'dispute', 'chargeback'] block=True support=True"
+    }
+  },
+  {
+    "task_id": "fraud_02_aliexpress",
+    "category": "fraud",
+    "query": "Помітив транзакцію в AliExpress на кредитці, я нічого там не купував",
+    "architecture": "baseline",
+    "answer": "Якщо ти не робив цю транзакцію, рекомендую:\n\n1. Заблокувати картку в розділі \"Картки\" → \"Заблокувати\".\n2. Зв'язатися зі службою підтримки через чат у застосунку для оформлення dispute або chargeback.\n\nЯкщо хочеш, можу показати останні транзакції по кредитці, щоб перевірити інші підозрілі операції.",
+    "latency_ms": 1373,
+    "total_tokens": 1970,
+    "input_tokens": 1875,
+    "output_tokens": 95,
+    "cost_usd": 0.0056375,
+    "tools_called": [],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0,
+      "escalation_correct": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "Відповідь асистента відповідає всім критеріям оцінки.",
+      "escalation_correct": "keywords_hit=['заблок', 'блок', 'підтримк', 'dispute', 'chargeback'] block=True support=True"
+    }
+  },
+  {
+    "task_id": "oos_01_buy_stocks",
+    "category": "out_of_scope",
+    "query": "Купи мені акції Tesla на $500",
+    "architecture": "baseline",
+    "answer": "Вибач, але я не можу допомогти з купівлею акцій або інвестиціями. Зате можу надати інформацію про твої витрати, допомогти з економією або проаналізувати підписки. Чим можу допомогти?",
+    "latency_ms": 1289,
+    "total_tokens": 1930,
+    "input_tokens": 1866,
+    "output_tokens": 64,
+    "cost_usd": 0.005305,
+    "tools_called": [],
+    "intent": null,
+    "cost_by_agent": {},
+    "tokens_by_agent": {},
+    "scores": {
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "N/A for baseline",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "The assistant's response meets all the criteria by politely declining the request, avoiding investment advice, and redirecting to available functions.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_01_coffee_last_week",
+    "category": "stats",
+    "query": "Скільки витратив на каву минулого тижня?",
+    "architecture": "crew",
+    "answer": "Минулого тижня ти витратив 21.22 на каву.",
+    "latency_ms": 2764,
+    "total_tokens": 3672,
+    "input_tokens": 3584,
+    "output_tokens": 88,
+    "cost_usd": 0.00889765,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "stats",
+    "cost_by_agent": {
+      "router": 6.015e-05,
+      "data_analyst": 0.008837500000000002
+    },
+    "tokens_by_agent": {
+      "router": 314,
+      "data_analyst": 3358
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=stats actual=stats",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 1/1 numbers",
+      "judge_success": "The assistant's response meets all the criteria specified.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_02_top_categories_june",
+    "category": "stats",
+    "query": "Топ-5 категорій витрат за червень 2025?",
+    "architecture": "crew",
+    "answer": "Топ-5 категорій витрат за червень 2025:\n\n1. Продукти (groceries): 982.50\n2. Здоров'я (health): 117.80\n3. Комунальні послуги (utilities): 111.00\n4. Доставка (delivery): 101.00\n5. Транспорт (transport): 100.32",
+    "latency_ms": 3430,
+    "total_tokens": 3867,
+    "input_tokens": 3716,
+    "output_tokens": 151,
+    "cost_usd": 0.0098882,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "stats",
+    "cost_by_agent": {
+      "router": 5.8200000000000005e-05,
+      "data_analyst": 0.00983
+    },
+    "tokens_by_agent": {
+      "router": 310,
+      "data_analyst": 3557
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.875,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=stats actual=stats",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 7/8 numbers; ungrounded: [-5.0]",
+      "judge_success": "The assistant response meets all the criteria specified.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_03_netflix_last_payment",
+    "category": "stats",
+    "query": "Коли була остання транзакція по Netflix?",
+    "architecture": "crew",
+    "answer": "Остання транзакція по Netflix була 10 листопада 2025 року.",
+    "latency_ms": 2662,
+    "total_tokens": 3590,
+    "input_tokens": 3521,
+    "output_tokens": 69,
+    "cost_usd": 0.00859245,
+    "tools_called": [
+      "query_transactions"
+    ],
+    "intent": "stats",
+    "cost_by_agent": {
+      "router": 5.745e-05,
+      "data_analyst": 0.008535000000000001
+    },
+    "tokens_by_agent": {
+      "router": 305,
+      "data_analyst": 3285
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.5,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=stats actual=stats",
+      "tool_selection_accuracy": "expected⊆['query_transactions'] actual=['query_transactions'] missing=[]",
+      "groundedness": "matched 1/2 numbers; ungrounded: [10.0]",
+      "judge_success": "violated=['Коротка відповідь без додаткових порад'] | rationale=The response is not short and contains additional information that is not requested.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_04_groceries_october",
+    "category": "stats",
+    "query": "Скільки я витратив на продукти у жовтні?",
+    "architecture": "crew",
+    "answer": "Ти витратив 570.50 на продукти у жовтні 2025 року.",
+    "latency_ms": 3329,
+    "total_tokens": 3679,
+    "input_tokens": 3586,
+    "output_tokens": 93,
+    "cost_usd": 0.00895265,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "stats",
+    "cost_by_agent": {
+      "router": 6.015e-05,
+      "data_analyst": 0.008892500000000001
+    },
+    "tokens_by_agent": {
+      "router": 314,
+      "data_analyst": 3365
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=stats actual=stats",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 2/2 numbers",
+      "judge_success": "violated=[] | rationale=All criteria are satisfied, but the year mentioned is incorrect as the user asked for October without specifying the year.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "stats_05_weekend_vs_weekday",
+    "category": "stats",
+    "query": "Я більше витрачаю у вихідні чи у будні?",
+    "architecture": "crew",
+    "answer": "Виявляється, ти більше витрачаєш у будні дні, ніж у вихідні. \n\n- Загалом на будні припадає 20,987.76, тоді як на вихідні — 8,102.69. \n- Хоча середня витрата на транзакцію у вихідні на 40% вища, ніж у будні.\n\nМожливо, варто звернути увагу на свої буденні витрати? Як думаєш, де можна трохи зекономити?",
+    "latency_ms": 5087,
+    "total_tokens": 4237,
+    "input_tokens": 4006,
+    "output_tokens": 231,
+    "cost_usd": 0.011377950000000001,
+    "tools_called": [
+      "detect_pattern"
+    ],
+    "intent": "multi_step",
+    "cost_by_agent": {
+      "router": 6.045e-05,
+      "data_analyst": 0.009045000000000001,
+      "advisor": 0.0022725
+    },
+    "tokens_by_agent": {
+      "router": 313,
+      "data_analyst": 3363,
+      "advisor": 561
+    },
+    "scores": {
+      "intent_accuracy": 0.0,
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 0.0,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=stats actual=multi_step",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['detect_pattern'] missing=['aggregate_spending']",
+      "groundedness": "matched 0/5 numbers; ungrounded: [20.987, 76.0, 8.102, 69.0, 40.0]",
+      "judge_success": "violated=['Без generic-рекомендацій'] | rationale=The assistant provided a clear answer and numerical comparison but included a generic recommendation.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_01_save_200",
+    "category": "advice",
+    "query": "Де можу зекономити $200 цього місяця?",
+    "architecture": "crew",
+    "answer": "Щоб зекономити $200 цього місяця, ось кілька ідей:\n\n1. **Продукти**: Спробуй зменшити витрати на $100. Можеш шукати знижки або обирати дешевші товари.\n2. **Доставка**: Зменшення на $50 — готуй вдома частіше замість замовлення їжі.\n3. **Кава**: Витрати на каву можна скоротити на $50, якщо пити її вдома замість кафе.\n\nЦі зміни допоможуть тобі досягти мети. Як думаєш, з чого почнеш?",
+    "latency_ms": 8252,
+    "total_tokens": 5085,
+    "input_tokens": 4567,
+    "output_tokens": 518,
+    "cost_usd": 0.01568805,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "advice",
+    "cost_by_agent": {
+      "router": 5.8049999999999995e-05,
+      "data_analyst": 0.0126075,
+      "advisor": 0.0030225
+    },
+    "tokens_by_agent": {
+      "router": 309,
+      "data_analyst": 4008,
+      "advisor": 768
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=advice actual=advice",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 0/4 numbers; ungrounded: [200.0, 100.0, 50.0, 50.0]",
+      "judge_success": "Відповідь містить конкретні категорії витрат з чіткими сумами економії, що дозволяє досягти цільової економії.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_02_forgotten_subscriptions",
+    "category": "advice",
+    "query": "На які підписки я витрачаю найбільше та чи всі вони активні?",
+    "architecture": "crew",
+    "answer": "Найбільші витрати на підписки:\n\n1. **KyivEnergo**: 761.0 (активна)\n2. **Vodokanal**: 286.0 (активна)\n3. **Apple One**: 180.0 (активна)\n4. **Internet KyivStar**: 144.0 (активна)\n5. **Netflix**: 144.0 (активна)\n6. **Sportlife**: 120.0 (неактивна, остання транзакція 2025-07-07)\n7. **Mobile Lifecell**: 96.0 (активна)\n8. **Spotify**: 60.0 (активна)\n9. **iCloud Storage**: 36.0 (активна)\n\nПідписка на **Sportlife** є неактивною. Інші підписки активні.",
+    "latency_ms": 3565,
+    "total_tokens": 4510,
+    "input_tokens": 4259,
+    "output_tokens": 251,
+    "cost_usd": 0.0122457,
+    "tools_called": [
+      "find_recurring_subscriptions"
+    ],
+    "intent": "stats",
+    "cost_by_agent": {
+      "router": 5.82e-05,
+      "data_analyst": 0.0121875
+    },
+    "tokens_by_agent": {
+      "router": 313,
+      "data_analyst": 4197
+    },
+    "scores": {
+      "intent_accuracy": 0.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.8823529411764706,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=advice actual=stats",
+      "tool_selection_accuracy": "expected⊆['find_recurring_subscriptions'] actual=['find_recurring_subscriptions'] missing=[]",
+      "groundedness": "matched 15/17 numbers; ungrounded: [7.0, 9.0]",
+      "judge_success": "The assistant provided a list of subscriptions and identified the inactive one, but did not suggest a specific action to take.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_03_late_night_delivery",
+    "category": "advice",
+    "query": "Я багато замовляю їжу. Як можу скоротити?",
+    "architecture": "crew",
+    "answer": "Виглядає, що доставка їжі займає значну частину твоїх витрат. Давай подивимось, де можна зекономити.\n\n- Загалом ти витратив $1529.00 на доставку їжі за рік. Це в середньому $25.07 за замовлення. Можливо, спробуй обмежити кількість замовлень до одного на тиждень, щоб зменшити витрати.\n- Найбільше ти витратив у грудні 2024 року — $216.50. Можливо, це пов'язано з святковими днями? Спробуй планувати приготування їжі заздалегідь у цей період.\n- Майже половина замовлень — 49.2%, або $687.00, були зроблені пізно вночі. Спробуй обмежити нічні замовлення, можливо, готуючи щось заздалегідь або маючи під рукою легкі закуски.\n\nЯк думаєш, чи зможеш ти спробувати ці підходи, щоб зменшити витрати?",
+    "latency_ms": 6704,
+    "total_tokens": 5194,
+    "input_tokens": 4608,
+    "output_tokens": 586,
+    "cost_usd": 0.01644,
+    "tools_called": [
+      "aggregate_spending",
+      "detect_pattern"
+    ],
+    "intent": "advice",
+    "cost_by_agent": {
+      "router": 6e-05,
+      "data_analyst": 0.012432499999999999,
+      "advisor": 0.0039475
+    },
+    "tokens_by_agent": {
+      "router": 313,
+      "data_analyst": 4088,
+      "advisor": 793
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=advice actual=advice",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending', 'detect_pattern'] missing=[]",
+      "groundedness": "matched 6/6 numbers",
+      "judge_success": "The assistant's response meets all criteria by providing specific delivery costs, identifying a pattern of late-night orders, and offering actionable advice with potential savings.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_04_credit_card",
+    "category": "advice",
+    "query": "Як швидше виплатити кредитну картку?",
+    "architecture": "crew",
+    "answer": "Щоб швидше виплатити кредитну картку, варто переглянути свої витрати і знайти, де можна зекономити.\n\n1. **Покупки та доставка**: Ти витратив 5,148.50 на шопінг і 1,529.00 на доставку. Спробуй обмежити покупки онлайн і доставку, щоб зекономити частину цієї суми.\n   \n2. **Кава та ресторани**: На каву пішло 993.58, а на ресторани — 659.83. Можливо, варто трохи зменшити ці витрати, наприклад, приготувати каву вдома або обідати частіше вдома.\n\n3. **Транспорт**: Витрати на транспорт склали 989.05. Якщо є можливість, спробуй скористатися громадським транспортом або планувати поїздки заздалегідь, щоб зменшити ці витрати.\n\nЗекономивши на цих категоріях, ти зможеш спрямувати більше коштів на виплату кредитної картки. Як думаєш, з чого почнеш?",
+    "latency_ms": 7822,
+    "total_tokens": 5477,
+    "input_tokens": 4751,
+    "output_tokens": 726,
+    "cost_usd": 0.018218650000000003,
+    "tools_called": [
+      "get_recent_transactions",
+      "aggregate_spending"
+    ],
+    "intent": "advice",
+    "cost_by_agent": {
+      "router": 5.865e-05,
+      "data_analyst": 0.0139675,
+      "advisor": 0.0041925
+    },
+    "tokens_by_agent": {
+      "router": 307,
+      "data_analyst": 4279,
+      "advisor": 891
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.6,
+      "judge_success": 0.6666666666666667
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=advice actual=advice",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending', 'get_recent_transactions'] missing=[]",
+      "groundedness": "matched 3/5 numbers; ungrounded: [5.148, 50.0]",
+      "judge_success": "violated=['Аналіз поточних платежів по credit_payment'] | rationale=The assistant did not analyze the user's current credit card payments, focusing instead on general spending categories.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "advice_05_weekend_spending",
+    "category": "advice",
+    "query": "Чому у вихідні витрачаю більше? Що можна змінити?",
+    "architecture": "crew",
+    "answer": "Здається, у вихідні ти витрачаєш більше через вищу середню вартість транзакцій. Ось кілька ідей, як це змінити:\n\n- Середня витрата на транзакцію у вихідні — 45.27, що на 40% більше, ніж у будні (32.24). Можливо, варто звернути увагу на те, де ти зазвичай витрачаєш більше, і спробувати знайти альтернативи.\n- Загальні витрати у вихідні складають 8102.69. Подумай, чи є можливість перенести частину витрат на будні, коли середня транзакція дешевша.\n\nМоже, спробуєш обмежити кількість дорогих покупок у вихідні?",
+    "latency_ms": 4746,
+    "total_tokens": 4326,
+    "input_tokens": 4030,
+    "output_tokens": 296,
+    "cost_usd": 0.012106750000000001,
+    "tools_called": [
+      "detect_pattern"
+    ],
+    "intent": "advice",
+    "cost_by_agent": {
+      "router": 5.925e-05,
+      "data_analyst": 0.009145,
+      "advisor": 0.0029025
+    },
+    "tokens_by_agent": {
+      "router": 314,
+      "data_analyst": 3379,
+      "advisor": 633
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 0.0,
+      "groundedness": 0.75,
+      "judge_success": 0.33333333333333337
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=advice actual=advice",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['detect_pattern'] missing=['aggregate_spending']",
+      "groundedness": "matched 3/4 numbers; ungrounded: [40.0]",
+      "judge_success": "violated=['Виявлено топ-категорії на вихідних', 'Конкретні поради з очікуваною економією'] | rationale=Хоча асистент підтвердив, що витрати у вихідні вищі, він не вказав топ-категорії витрат і не надав конкретних порад з очікуваною економією.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_01_yoy_change",
+    "category": "multi_step",
+    "query": "Порівняй мої витрати на доставку у першому кварталі і третьому кварталі 2025",
+    "architecture": "crew",
+    "answer": "Твої витрати на доставку значно зросли з першого до третього кварталу 2025 року. \n\n- У першому кварталі ти витратив 283.00, а в третьому — вже 510.50. Це збільшення на 227.50, або на 80.4%.\n- Можливо, варто переглянути частоту замовлень або вибір сервісу доставки, щоб зменшити ці витрати.\n\nЧи є якісь зміни у твоєму розкладі або потребах, які могли б пояснити таке збільшення?",
+    "latency_ms": 4721,
+    "total_tokens": 5241,
+    "input_tokens": 4964,
+    "output_tokens": 277,
+    "cost_usd": 0.014240000000000001,
+    "tools_called": [
+      "compare_periods"
+    ],
+    "intent": "multi_step",
+    "cost_by_agent": {
+      "router": 6e-05,
+      "data_analyst": 0.011737500000000001,
+      "advisor": 0.0024425
+    },
+    "tokens_by_agent": {
+      "router": 319,
+      "data_analyst": 4344,
+      "advisor": 578
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=multi_step actual=multi_step",
+      "tool_selection_accuracy": "expected⊆['compare_periods'] actual=['compare_periods'] missing=[]",
+      "groundedness": "matched 5/5 numbers",
+      "judge_success": "The assistant's response meets all the criteria by providing specific amounts for both quarters, the difference in both dollar and percentage terms, and a clear conclusion that expenses have increased.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_02_projection_delivery_halved",
+    "category": "multi_step",
+    "query": "Якщо зменшу витрати на доставку вдвічі — скільки зекономлю за рік?",
+    "architecture": "crew",
+    "answer": "Якщо зменшиш витрати на доставку вдвічі, то за рік зекономиш 764.50. Це досить суттєва сума, яка може піти на щось інше, що давно планував. Як думаєш, куди б ти міг її вкласти?",
+    "latency_ms": 3939,
+    "total_tokens": 4204,
+    "input_tokens": 4036,
+    "output_tokens": 168,
+    "cost_usd": 0.01081355,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "multi_step",
+    "cost_by_agent": {
+      "router": 6.104999999999999e-05,
+      "data_analyst": 0.0090025,
+      "advisor": 0.00175
+    },
+    "tokens_by_agent": {
+      "router": 323,
+      "data_analyst": 3391,
+      "advisor": 490
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.0,
+      "judge_success": 0.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=multi_step actual=multi_step",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 0/1 numbers; ungrounded: [764.5]",
+      "judge_success": "violated=['Конкретна поточна сума на доставку', 'Підрахунок очікуваної економії за рік', 'Числа реалістичні, не вигадані'] | rationale=The assistant did not provide the current delivery cost, nor did it show how the annual savings were calculated, and the figures presented lack context for realism.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "multi_03_month_close_plus",
+    "category": "multi_step",
+    "query": "Чи закрию я листопад у плюс?",
+    "architecture": "crew",
+    "answer": "Вітаю! У листопаді ти закрив місяць з невеликим плюсом у 60.76. Це вже хороший знак, що ти на правильному шляху. Як думаєш, що допомогло досягти цього результату?",
+    "latency_ms": 3429,
+    "total_tokens": 4423,
+    "input_tokens": 4272,
+    "output_tokens": 151,
+    "cost_usd": 0.0112782,
+    "tools_called": [
+      "aggregate_spending"
+    ],
+    "intent": "multi_step",
+    "cost_by_agent": {
+      "router": 5.8200000000000005e-05,
+      "data_analyst": 0.00964,
+      "advisor": 0.00158
+    },
+    "tokens_by_agent": {
+      "router": 307,
+      "data_analyst": 3658,
+      "advisor": 458
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 0.0,
+      "judge_success": 0.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=multi_step actual=multi_step",
+      "tool_selection_accuracy": "expected⊆['aggregate_spending'] actual=['aggregate_spending'] missing=[]",
+      "groundedness": "matched 0/1 numbers; ungrounded: [60.76]",
+      "judge_success": "violated=['Порівняння доходу (salary) та витрат за листопад', 'Конкретні числа для обох частин', 'Чіткий висновок плюс/мінус з різницею'] | rationale=The assistant's response lacks specific income and expense figures, as well as a clear comparison and conclusion regarding the user's financial status for November.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  },
+  {
+    "task_id": "fraud_01_booking",
+    "category": "fraud",
+    "query": "На моїй кредитці $890 у Booking.com 3 грудня. Я не робив цю транзакцію.",
+    "architecture": "crew",
+    "answer": "Це може бути fraud, тому важливо діяти швидко. Ось що тобі потрібно зробити:\n\n1. Заблокуй картку: перейдіть у розділ Картки → обери цю карту → натисни Заблокувати.\n2. Звернись до служби підтримки через чат застосунку — вони допоможуть оформити dispute / chargeback, оскільки це поза твоїми можливостями.\n\nЯкщо хочеш, можу показати останні транзакції по цій картці, щоб перевірити наявність інших підозрілих операцій.",
+    "latency_ms": 4008,
+    "total_tokens": 735,
+    "input_tokens": 574,
+    "output_tokens": 161,
+    "cost_usd": 0.0001827,
+    "tools_called": [],
+    "intent": "fraud",
+    "cost_by_agent": {
+      "router": 6.15e-05,
+      "safety": 0.0001212
+    },
+    "tokens_by_agent": {
+      "router": 323,
+      "safety": 412
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0,
+      "escalation_correct": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=fraud actual=fraud",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "The assistant's response meets all the criteria by providing appropriate guidance and maintaining an empathetic tone.",
+      "escalation_correct": "keywords_hit=['заблок', 'блок', 'підтримк', 'dispute', 'chargeback'] block=True support=True"
+    }
+  },
+  {
+    "task_id": "fraud_02_aliexpress",
+    "category": "fraud",
+    "query": "Помітив транзакцію в AliExpress на кредитці, я нічого там не купував",
+    "architecture": "crew",
+    "answer": "Це може бути fraud, тому важливо діяти швидко. Ось що тобі потрібно зробити:\n\n1. Заблокувати картку: Картки → ця карта → Заблокувати.\n2. Звернутися до служби підтримки через чат застосунку — вони допоможуть оформити dispute / chargeback.\n\nЯкщо хочеш, можу показати останні транзакції по цій картці, щоб перевірити наявність інших підозрілих операцій.",
+    "latency_ms": 3730,
+    "total_tokens": 697,
+    "input_tokens": 562,
+    "output_tokens": 135,
+    "cost_usd": 0.00016529999999999998,
+    "tools_called": [],
+    "intent": "fraud",
+    "cost_by_agent": {
+      "router": 6.0599999999999996e-05,
+      "safety": 0.00010469999999999998
+    },
+    "tokens_by_agent": {
+      "router": 317,
+      "safety": 380
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0,
+      "escalation_correct": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=fraud actual=fraud",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "Відповідь асистента відповідає всім критеріям оцінки.",
+      "escalation_correct": "keywords_hit=['заблок', 'блок', 'підтримк', 'dispute', 'chargeback'] block=True support=True"
+    }
+  },
+  {
+    "task_id": "oos_01_buy_stocks",
+    "category": "out_of_scope",
+    "query": "Купи мені акції Tesla на $500",
+    "architecture": "crew",
+    "answer": "На жаль, я не можу допомогти з купівлею акцій. Але можу допомогти проаналізувати твої витрати, надати поради щодо економії або виявити підозрілі транзакції. Чим можу допомогти?",
+    "latency_ms": 12405,
+    "total_tokens": 552,
+    "input_tokens": 462,
+    "output_tokens": 90,
+    "cost_usd": 0.0001233,
+    "tools_called": [],
+    "intent": "out_of_scope",
+    "cost_by_agent": {
+      "router": 5.925e-05,
+      "out_of_scope": 6.405e-05
+    },
+    "tokens_by_agent": {
+      "router": 308,
+      "out_of_scope": 244
+    },
+    "scores": {
+      "intent_accuracy": 1.0,
+      "tool_selection_accuracy": 1.0,
+      "groundedness": 1.0,
+      "judge_success": 1.0
+    },
+    "score_reasons": {
+      "intent_accuracy": "expected=out_of_scope actual=out_of_scope",
+      "tool_selection_accuracy": "expected=∅ actual=[]",
+      "groundedness": "no substantial numbers in answer",
+      "judge_success": "The assistant politely declined the request, did not offer to buy or give investment advice, and redirected the user to available functions.",
+      "escalation_correct": "N/A — not a fraud task"
+    }
+  }
+]
