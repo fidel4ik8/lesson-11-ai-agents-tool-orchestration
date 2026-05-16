@@ -87,6 +87,10 @@ user query ─► │  ROUTER  │ gpt-4o-mini  (intent: stats | advice | multi_
 Усі 5 нод інструментовані `@observe` ([src/crew/nodes.py](src/crew/nodes.py)) — у Langfuse дерево
 spans видно прозоро з cost / latency / metadata кожного агента.
 
+![Streamlit chat tab — multi-turn діалог з crew](img/streamlit_chat.png)
+
+*Streamlit Chat tab у дії: multi-turn діалог "скільки витратив за 2 дні?" → "підкажи як економити" → "на підписки". Видно, що на третій репліці Advisor крафтить персоналізовану пораду з конкретними числами (Sportlife $120/міс, Apple One $324, Spotify $96), бо DataAnalyst підняв їх з `find_recurring_subscriptions`. На другій репліці агент чесно відмовляється давати загальну пораду без контексту — це правильна поведінка згідно з нашим Advisor-промптом.*
+
 ### 2.3 Принципи дизайну crew
 
 1. **Cheap gate.** Router на mini класифікує запит за **$0.00006** замість $0.005+
@@ -149,6 +153,10 @@ patterns з README матеріалізуються коректно (напри
 [evals/results.json](evals/results.json) (per-task) і
 [evals/summary.md](evals/summary.md) (агрегати). У Langfuse — окремий trace
 для кожної задачі з тегами `task_id`, `architecture`, `category`.
+
+![Trace expander зі Streamlit-у: tool calls + result preview](img/streamlit_trace_expanded.png)
+
+*Розгорнутий Trace expander під відповіддю агента у Streamlit. Видно `intent: advice` від Router-а, конкретний `aggregate_spending` tool-call з параметрами `group_by=category, category=subscriptions, period=2024-12-01..2025-11-30`, і preview JSON-результату з реальними сумами по merchant-ах. Така прозорість — головна перевага дизайну, де агент відповідає лише числами, що походять з SQL.*
 
 ---
 
